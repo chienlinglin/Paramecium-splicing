@@ -53,3 +53,26 @@ Fig1B <- ggplot(melt_GE_intron_number, aes(x=total_intron_number, y = log(Normal
   labs(x = 'Number of introns per gene',
        y = 'Log2(normalized counts+1)',
        fill = "intron_number")
+
+## 03. Figure 1C: First intron position and gene expression level 
+Fig3C <- ggplot(melt_GE_5_end_distance, aes(x=intron_position_category, y = log(Normalized_counts+1), fill = intron_position_category)) +
+  geom_violin() +
+  geom_boxplot(outliers = FALSE, width = 0.1)+ # outliners = FALSE: outliers are discarded and not included in the calculation
+  geom_signif(
+    comparisons = list(
+      c("first_5_intron", "middle"),
+      c("middle", "first_3_intron"), 
+      c("first_5_intron", "first_3_intron")),
+    map_signif_level = TRUE,
+    textsize = 6,
+    margin_top = 0.08,
+    step_increase = 0.05,
+    tip_length = 0.01
+  ) +
+  theme(axis.text.x = element_text(color = "black", size = 12),
+        axis.text.y = element_text(color = "black", size = 12))+
+  theme(base_size = 35)+ 
+  theme_bw()+
+  labs(x = 'Gene category based on first intron position',
+       y = 'Log(normalized counts+1)',
+       fill = "intron_position_category")
