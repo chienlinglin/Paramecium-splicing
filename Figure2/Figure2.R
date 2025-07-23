@@ -27,4 +27,24 @@ sets_list <- list(
 Fig2A <- ggVennDiagram(sets_list, order.set.by = "none")
 
 ## 002. Figure 2B
+# Import count data 
+count_class_proteins <- read.csv("count_class_proteins.csv")
 
+# Manual row scaling to create heatmap colour range 
+row_scaled_matrix <- t(apply(count_class_proteins, 1, function(x) {
+  (x - min(x)) / (max(x) - min(x))
+}))
+# Replace NaN with 0 
+row_scaled_matrix[is.nan(row_scaled_matrix)] <- 0
+
+# Plot
+Fig2B <- pheatmap(row_scaled_matrix, 
+         cluster_rows = FALSE, 
+         cluster_cols = FALSE, 
+         display_numbers = round(count_df_1, 2),  
+         number_format = "%.2f",
+         fontsize_number = 10,
+         color = colorRampPalette(c("#38466E", "white", "#DA6C6C"))(30),
+         number_color = "black",
+         border_color = "black", 
+         scale = "none")  

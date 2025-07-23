@@ -1,0 +1,27 @@
+"","H. sapiens","Mus_musculus.fa","Danio_rerio.fa","Drosophila_melanogaster.fa","C_elegans.fa","Saccharomyces_cerevisiae.fa","Paramecium_bursaria_DK2_uniq_protein.faa","Paramecium_tetraurelia.fa","Tetrahymena_thermophila.fa","Arabidopsis_thaliana.fa","zero"
+"U1 snRNP",4,4,4,3,3,4,3,2,2,3,0
+"Sm",7,7,7,7,7,6,4,5,5,7,0
+"U11/U12 snRNP",5,5,5,3,0,0,0,0,0,5,0
+"17S U2 snRNP",12,12,12,12,11,10,12,12,12,12,0
+"17S U2 snRNP associated",11,11,11,11,11,3,8,9,9,10,0
+"U5 snRNP",8,8,8,8,8,6,7,7,7,8,0
+"U4/U6 snRNP",5,5,5,5,5,4,5,5,5,5,0
+"U4/U6 recycling",1,1,1,1,1,0,0,1,1,1,0
+"LSm",8,8,8,8,8,7,6,7,7,8,0
+"tri-snRNP",2,2,2,2,2,2,2,2,2,2,0
+"Recruited at A complex",8,8,8,6,5,2,4,4,4,7,0
+"PRP19 complex",9,9,9,9,8,4,5,7,7,9,0
+"PRP19 related",9,8,8,8,8,6,6,6,5,7,0
+"Recruited at B complex",8,8,8,8,8,2,6,6,6,8,0
+"Recruited at Bact complex",12,12,11,12,12,5,10,10,10,11,0
+"Recruited at C complex",18,18,18,18,17,0,11,12,11,16,0
+"Second step factors",5,5,5,5,5,5,5,5,5,5,0
+"RES complex",3,3,3,3,3,3,2,3,3,3,0
+"EJC/mRNP",12,12,11,12,11,3,3,7,5,8,0
+"hnRNP",29,28,17,11,6,2,2,3,5,7,0
+"SR protein",16,15,15,10,9,1,2,5,2,7,0
+"SR related",2,2,2,2,2,0,2,2,2,2,0
+"TREX",6,6,6,6,5,2,3,3,3,6,0
+"CSTF",2,2,2,2,2,1,0,0,0,2,0
+"CPSF",7,7,6,6,6,3,2,2,1,6,0
+"GEM",3,3,3,3,2,0,0,0,0,1,0
