@@ -1,0 +1,1106 @@
+Class / family,Gene Symbol,H. sapiens,Mus_musculus.fa,Danio_rerio.fa,Drosophila_melanogaster.fa,C_elegans.fa,Saccharomyces_cerevisiae.fa,Paramecium_bursaria_DK2_uniq_protein.faa,Paramecium_tetraurelia.fa,Tetrahymena_thermophila.fa,Arabidopsis_thaliana.fa
+U1 snRNP,LUC7L,1,1,1,1,1,1,0,0,0,1
+U1 snRNP,SNRNP70,1,1,1,1,1,1,1,1,1,1
+U1 snRNP,SNRPA,1,1,1,0,0,1,1,0,0,0
+U1 snRNP,SNRPC,1,1,1,1,1,1,1,1,1,1
+Sm,SNRPB,1,1,1,1,1,1,0,0,0,1
+Sm,SNRPD1,1,1,1,1,1,1,1,1,1,1
+Sm,SNRPD2,1,1,1,1,1,1,1,1,1,1
+Sm,SNRPD3,1,1,1,1,1,1,1,1,1,1
+Sm,SNRPE,1,1,1,1,1,1,1,1,1,1
+Sm,SNRPF,1,1,1,1,1,0,0,0,0,1
+Sm,SNRPG,1,1,1,1,1,1,0,1,1,1
+U11/U12 snRNP,RNPC3,1,1,1,1,0,0,0,0,0,1
+U11/U12 snRNP,SNRNP25,1,1,1,1,0,0,0,0,0,1
+U11/U12 snRNP,SNRNP35,1,1,1,0,0,0,0,0,0,1
+U11/U12 snRNP,SNRNP48,1,1,1,0,0,0,0,0,0,1
+U11/U12 snRNP,ZRSR2,1,1,1,1,0,0,0,0,0,1
+17S U2 snRNP,PHF5A,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3A1,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3A2,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3A3,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3B1,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3B2,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3B3,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3B4,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SF3B5,1,1,1,1,0,1,1,1,1,1
+17S U2 snRNP,SF3B6,1,1,1,1,1,0,1,1,1,1
+17S U2 snRNP,SNRPA1,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP,SNRPB2,1,1,1,1,1,0,1,1,1,1
+17S U2 snRNP associated,CHERP,1,1,1,1,1,0,0,0,0,1
+17S U2 snRNP associated,DDX42,1,1,1,1,1,0,1,1,1,1
+17S U2 snRNP associated,DDX46,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP associated,DHX15,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP associated,HTATSF1,1,1,1,1,1,1,1,1,1,1
+17S U2 snRNP associated,PUF60,1,1,1,1,1,0,0,0,0,0
+17S U2 snRNP associated,RBM17,1,1,1,1,1,0,1,1,1,1
+17S U2 snRNP associated,SMNDC1,1,1,1,1,1,0,0,1,1,1
+17S U2 snRNP associated,U2AF1,1,1,1,1,1,0,1,1,1,1
+17S U2 snRNP associated,U2AF2,1,1,1,1,1,0,1,1,1,1
+17S U2 snRNP associated,U2SURP,1,1,1,1,1,0,1,1,1,1
+U5 snRNP,CD2BP2,1,1,1,1,1,1,0,0,0,1
+U5 snRNP,DDX23,1,1,1,1,1,1,1,1,1,1
+U5 snRNP,EFTUD2,1,1,1,1,1,0,1,1,1,1
+U5 snRNP,PRPF6,1,1,1,1,1,1,1,1,1,1
+U5 snRNP,PRPF8,1,1,1,1,1,1,1,1,1,1
+U5 snRNP,SNRNP200,1,1,1,1,1,1,1,1,1,1
+U5 snRNP,SNRNP40,1,1,1,1,1,0,1,1,1,1
+U5 snRNP,TXNL4A,1,1,1,1,1,1,1,1,1,1
+U4/U6 snRNP,NHP2L1,1,1,1,1,1,1,1,1,1,1
+U4/U6 snRNP,PPIH,1,1,1,1,1,0,1,1,1,1
+U4/U6 snRNP,PRPF3,1,1,1,1,1,1,1,1,1,1
+U4/U6 snRNP,PRPF31,1,1,1,1,1,1,1,1,1,1
+U4/U6 snRNP,PRPF4,1,1,1,1,1,1,1,1,1,1
+U4/U6 recycling,SART3,1,1,1,1,1,0,0,1,1,1
+LSm,LSM1,1,1,1,1,1,1,0,0,0,1
+LSm,LSM2,1,1,1,1,1,1,1,1,1,1
+LSm,LSM3,1,1,1,1,1,1,0,1,1,1
+LSm,LSM4,1,1,1,1,1,1,1,1,1,1
+LSm,LSM5,1,1,1,1,1,1,1,1,1,1
+LSm,LSM6,1,1,1,1,1,1,1,1,1,1
+LSm,LSM7,1,1,1,1,1,1,1,1,1,1
+LSm,LSM8,1,1,1,1,1,0,1,1,1,1
+tri-snRNP,SART1,1,1,1,1,1,1,1,1,1,1
+tri-snRNP,USP39,1,1,1,1,1,1,1,1,1,1
+Recruited at A complex,CCAR1,1,1,1,0,1,0,0,0,0,1
+Recruited at A complex,PRPF40A,1,1,1,1,1,1,1,1,1,1
+Recruited at A complex,RBM10,1,1,1,1,0,0,0,0,0,1
+Recruited at A complex,RBM25,1,1,1,1,1,0,1,1,1,1
+Recruited at A complex,RBM5,1,1,1,1,1,0,1,1,1,1
+Recruited at A complex,SF1,1,1,1,1,1,1,1,1,1,1
+Recruited at A complex,SUGP1,1,1,1,1,0,0,0,0,0,1
+Recruited at A complex,THRAP3,1,1,1,0,0,0,0,0,0,0
+PRP19 complex,BCAS2,1,1,1,1,1,0,0,1,1,1
+PRP19 complex,CDC5L,1,1,1,1,1,1,1,1,1,1
+PRP19 complex,CTNNBL1,1,1,1,1,1,0,0,1,1,1
+PRP19 complex,CWC15,1,1,1,1,1,1,1,1,1,1
+PRP19 complex,HSPA8,1,1,1,1,1,1,1,1,1,1
+PRP19 complex,PLRG1,1,1,1,1,1,1,1,1,1,1
+PRP19 complex,PQBP1,1,1,1,1,1,0,0,0,0,1
+PRP19 complex,PRPF19,1,1,1,1,1,0,1,1,1,1
+PRP19 complex,WBP11,1,1,1,1,0,0,0,0,0,1
+PRP19 related,AQR,1,1,1,1,1,0,1,1,0,1
+PRP19 related,BUD31,1,1,1,1,1,1,1,1,1,1
+PRP19 related,CRNKL1,1,1,1,1,1,1,1,1,1,1
+PRP19 related,ISY1,1,0,0,0,0,1,0,0,0,0
+PRP19 related,PPIE,1,1,1,1,1,0,0,0,0,0
+PRP19 related,PPIL1,1,1,1,1,1,0,0,0,0,1
+PRP19 related,RBM22,1,1,1,1,1,1,1,1,1,1
+PRP19 related,SNW1,1,1,1,1,1,1,1,1,1,1
+PRP19 related,XAB2,1,1,1,1,1,1,1,1,1,1
+Recruited at B complex,IK,1,1,1,1,1,0,0,0,0,1
+Recruited at B complex,MFAP1,1,1,1,1,1,0,1,1,1,1
+Recruited at B complex,PRPF38A,1,1,1,1,1,0,1,1,1,1
+Recruited at B complex,PRPF4B,1,1,1,1,1,0,1,1,1,1
+Recruited at B complex,SMU1,1,1,1,1,1,0,1,1,1,1
+Recruited at B complex,TFIP11,1,1,1,1,1,1,1,1,1,1
+Recruited at B complex,WBP4,1,1,1,1,1,0,0,0,0,1
+Recruited at B complex,ZMAT2,1,1,1,1,1,1,1,1,1,1
+Recruited at Bact complex,CCDC12,1,1,1,1,1,0,1,1,1,1
+Recruited at Bact complex,CWC22,1,1,1,1,1,1,1,1,1,1
+Recruited at Bact complex,CWC25,1,1,1,1,1,1,1,1,1,1
+Recruited at Bact complex,CWC27,1,1,1,1,1,0,1,1,1,1
+Recruited at Bact complex,DHX16,1,1,1,1,1,0,1,1,1,1
+Recruited at Bact complex,GPATCH1,1,1,1,1,1,0,1,1,1,1
+Recruited at Bact complex,GPKOW,1,1,1,1,1,1,1,1,1,1
+Recruited at Bact complex,PPIL2,1,1,1,1,1,0,1,1,1,1
+Recruited at Bact complex,PRCC,1,1,1,1,1,0,0,0,0,0
+Recruited at Bact complex,RNF113A,1,1,1,1,1,1,1,1,1,1
+Recruited at Bact complex,YJU2,1,1,1,1,1,1,1,1,1,1
+Recruited at Bact complex,ZNF830,1,1,0,1,1,0,0,0,0,1
+Occasionally detected in Bact complex,C16orf80,1,1,1,1,1,0,1,1,1,1
+Occasionally detected in Bact complex,CCDC75,1,1,1,1,1,1,0,0,0,1
+Occasionally detected in Bact complex,DDX50,1,1,0,0,0,0,0,1,1,0
+Occasionally detected in Bact complex,FAM58A,1,1,1,1,0,0,0,0,0,0
+Occasionally detected in Bact complex,FRG1,1,1,1,1,1,0,0,0,0,0
+Occasionally detected in Bact complex,FUBP3,1,1,1,1,1,0,0,0,0,1
+Occasionally detected in Bact complex,KIAA1967,1,1,0,0,1,0,0,0,0,0
+Occasionally detected in Bact complex,MOV10,1,1,1,0,0,0,0,0,0,1
+Occasionally detected in Bact complex,NCOR1,1,1,1,1,1,0,0,0,0,1
+Occasionally detected in Bact complex,TRIM24,1,1,0,0,0,0,0,0,0,0
+Recruited at C complex,C9orf78,1,1,1,1,1,0,0,0,0,1
+Recruited at C complex,CACTIN,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,CDK10,1,1,1,1,0,0,0,1,1,0
+Recruited at C complex,CXorf56,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,DDX41,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,DGCR14,1,1,1,1,1,0,0,1,0,1
+Recruited at C complex,DHX35,1,1,1,1,1,0,0,0,0,1
+Recruited at C complex,FAM32A,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,FAM50A,1,1,1,1,1,0,1,1,0,1
+Recruited at C complex,FRA10AC1,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,LENG1,1,1,1,1,1,0,0,0,0,0
+Recruited at C complex,NOSIP,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,PPIG,1,1,1,1,1,0,0,0,0,1
+Recruited at C complex,PPIL3,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,PPWD1,1,1,1,1,1,0,1,1,1,1
+Recruited at C complex,SDE2,1,1,1,1,1,0,1,0,1,1
+Recruited at C complex,SYF2,1,1,1,1,1,0,0,0,0,1
+Recruited at C complex,WDR83,1,1,1,1,1,0,1,1,1,1
+Occasionally detected in C complex,BCAS1,1,1,0,0,0,0,0,0,0,0
+Occasionally detected in C complex,FAM50B,1,1,0,0,0,0,0,0,0,0
+Occasionally detected in C complex,GNB2L1,1,1,1,1,1,1,1,1,1,1
+Occasionally detected in C complex,JUP,1,1,1,0,1,0,0,0,0,1
+Occasionally detected in C complex,MATR3,1,1,1,0,0,0,0,0,1,0
+Occasionally detected in C complex,NKAP,1,1,1,1,1,0,1,1,1,1
+Occasionally detected in C complex,RBM4B,1,1,1,1,1,0,0,1,1,1
+Occasionally detected in C complex,TOE1,1,1,1,0,1,0,0,0,0,0
+Occasionally detected in C complex,TTC14,1,1,1,1,0,0,0,0,0,0
+Occasionally detected in C complex,WDR70,1,1,1,1,1,0,1,1,1,1
+Occasionally detected in C complex,YJU2B,1,1,1,1,1,0,1,1,1,1
+Occasionally detected in C complex,ZCCHC10,1,1,1,1,0,0,1,1,0,1
+Second step factors,CDC40,1,1,1,1,1,1,1,1,1,1
+Second step factors,DHX38,1,1,1,1,1,1,1,1,1,1
+Second step factors,DHX8,1,1,1,1,1,1,1,1,1,1
+Second step factors,PRPF18,1,1,1,1,1,1,1,1,1,1
+Second step factors,SLU7,1,1,1,1,1,1,1,1,1,1
+RES complex,BUD13,1,1,1,1,1,1,1,1,1,1
+RES complex,RBMX2,1,1,1,1,1,1,1,1,1,1
+RES complex,SNIP1,1,1,1,1,1,1,0,1,1,1
+EJC/mRNP,ACIN1,1,1,1,1,1,0,0,0,0,1
+EJC/mRNP,ALYREF,1,1,1,1,1,0,0,1,0,1
+EJC/mRNP,CASC3,1,1,1,1,1,0,0,0,0,0
+EJC/mRNP,EIF4A3,1,1,1,1,1,1,1,1,1,1
+EJC/mRNP,MAGOH,1,1,1,1,0,0,1,1,1,0
+EJC/mRNP,NXF1,1,1,1,1,1,1,0,0,0,0
+EJC/mRNP,NXT1,1,1,0,1,1,0,0,0,0,0
+EJC/mRNP,PNN,1,1,1,1,1,0,0,0,0,1
+EJC/mRNP,RBM8A,1,1,1,1,1,0,0,1,1,1
+EJC/mRNP,RNPS1,1,1,1,1,1,0,0,1,0,1
+EJC/mRNP,SAP18,1,1,1,1,1,0,0,1,1,1
+EJC/mRNP,UPF1,1,1,1,1,1,1,1,1,1,1
+misc. proteins found irregularly with spliceosomes,DEK,1,1,1,1,0,0,0,0,0,1
+misc. proteins found irregularly with spliceosomes,DHX9,1,1,1,1,1,0,0,0,0,0
+misc. proteins found irregularly with spliceosomes,ERH,1,1,1,1,1,0,0,0,0,1
+misc. proteins found irregularly with spliceosomes,KIN,1,1,1,1,1,1,1,1,1,1
+misc. proteins found irregularly with spliceosomes,NRIP2,1,1,1,0,0,0,0,0,0,0
+misc. proteins found irregularly with spliceosomes,PRPF38B,1,1,1,1,1,0,1,1,1,1
+misc. proteins found irregularly with spliceosomes,PRPF39,1,1,1,1,1,1,0,0,1,1
+misc. proteins found irregularly with spliceosomes,RUVBL1,1,1,1,1,1,1,1,1,1,1
+misc. proteins found irregularly with spliceosomes,SKIV2L2,1,1,1,1,1,1,1,1,1,1
+misc. proteins found irregularly with spliceosomes,SNRNP27,1,1,1,1,1,0,0,0,0,0
+misc. proteins found irregularly with spliceosomes,TCERG1,1,1,1,1,1,0,0,0,0,1
+misc. proteins found irregularly with spliceosomes,UBL5,1,1,0,1,1,1,1,1,1,1
+pre-mRNA/mRNA binding proteins,DDX17,1,1,1,0,1,0,1,0,1,1
+pre-mRNA/mRNA binding proteins,DDX19A,1,1,0,1,1,1,0,0,0,1
+pre-mRNA/mRNA binding proteins,DDX3X,1,1,1,1,0,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,DDX5,1,1,1,1,0,1,1,1,1,0
+pre-mRNA/mRNA binding proteins,DHX34,1,1,1,1,1,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,EWSR1,1,1,1,1,1,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,GCFC1,1,1,1,1,1,0,0,0,0,1
+pre-mRNA/mRNA binding proteins,IGF2BP3,1,1,1,0,0,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,KHDRBS1,1,1,1,0,0,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,NCBP1,1,1,0,1,1,1,1,1,1,1
+pre-mRNA/mRNA binding proteins,NCBP2,1,1,1,1,1,1,1,1,1,1
+pre-mRNA/mRNA binding proteins,NUMA1,1,1,1,0,0,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,PABPC1,1,1,1,1,1,1,1,1,0,1
+pre-mRNA/mRNA binding proteins,PABPC4,1,1,1,1,0,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,PABPN1,1,1,1,1,1,0,1,1,1,0
+pre-mRNA/mRNA binding proteins,RBM15,1,1,1,1,0,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,RBM39,1,1,1,1,1,0,1,1,1,1
+pre-mRNA/mRNA binding proteins,RBM7,1,1,1,1,1,0,0,0,0,0
+pre-mRNA/mRNA binding proteins,SRRT,1,1,1,1,1,0,1,1,1,1
+pre-mRNA/mRNA binding proteins,XRN2,1,1,1,1,1,1,0,1,1,1
+pre-mRNA/mRNA binding proteins,YBX1,1,1,1,0,0,0,0,0,0,0
+hnRNP,FUS,1,1,1,1,1,0,0,0,1,0
+hnRNP,HNRNPA0,1,1,1,0,0,0,0,0,0,0
+hnRNP,HNRNPA1,1,1,1,1,0,0,0,0,0,1
+hnRNP,HNRNPA2B1,1,1,0,0,0,0,0,0,0,0
+hnRNP,HNRNPA3,1,1,1,0,1,0,0,0,0,0
+hnRNP,HNRNPAB,1,1,1,0,0,0,1,0,0,0
+hnRNP,HNRNPC,1,1,1,0,0,1,0,0,0,0
+hnRNP,HNRNPCL1,1,0,0,1,1,0,0,0,0,0
+hnRNP,HNRNPD,1,1,1,1,0,0,0,0,0,0
+hnRNP,HNRNPF,1,1,0,1,0,0,0,0,0,1
+hnRNP,HNRNPH1,1,1,0,0,0,0,0,0,1,0
+hnRNP,HNRNPH2,1,1,0,0,0,0,0,0,0,1
+hnRNP,HNRNPH3,1,1,0,0,0,0,0,0,0,1
+hnRNP,HNRNPK,1,1,1,1,1,0,0,0,0,0
+hnRNP,HNRNPL,1,1,0,1,0,0,0,0,0,0
+hnRNP,HNRNPM,1,1,1,0,0,0,0,0,0,0
+hnRNP,HNRNPR,1,1,1,1,1,0,0,0,0,1
+hnRNP,HNRNPU,1,1,1,0,0,0,1,0,0,0
+hnRNP,HNRNPUL1,1,1,1,1,1,0,0,0,1,0
+hnRNP,HNRNPUL2,1,1,0,0,0,0,0,0,1,0
+hnRNP,HNRPDL,1,1,1,1,0,0,0,1,0,1
+hnRNP,HNRPLL,1,1,0,0,0,0,0,1,0,0
+hnRNP,PCBP1,1,1,0,0,0,1,0,1,1,0
+hnRNP,PCBP2,1,1,1,0,0,0,0,0,0,0
+hnRNP,RALY,1,1,1,1,0,0,0,0,0,0
+hnRNP,RALYL,1,1,0,0,0,0,0,0,0,0
+hnRNP,RBMX,1,1,1,0,0,0,0,0,0,1
+hnRNP,RBMXL2,1,1,0,0,0,0,0,0,0,0
+hnRNP,SYNCRIP,1,1,1,0,0,0,0,0,0,0
+SR protein,SFSWAP,1,1,1,1,1,0,0,0,0,1
+SR protein,SREK1,1,1,1,1,1,0,0,0,0,1
+SR protein,SRSF1,1,1,1,1,1,0,0,0,1,1
+SR protein,SRSF10,1,1,1,0,0,0,0,1,0,1
+SR protein,SRSF11,1,1,1,0,0,0,0,0,0,0
+SR protein,SRSF12,1,1,1,0,0,0,0,0,0,0
+SR protein,SRSF2,1,1,1,1,1,0,0,1,0,1
+SR protein,SRSF3,1,1,1,1,0,0,0,1,0,0
+SR protein,SRSF4,1,1,1,1,1,0,1,0,0,0
+SR protein,SRSF5,1,1,1,0,0,0,0,0,0,0
+SR protein,SRSF6,1,1,1,1,1,1,0,0,0,0
+SR protein,SRSF7,1,1,1,1,1,0,1,1,1,1
+SR protein,SRSF8,1,0,0,0,0,0,0,1,0,0
+SR protein,SRSF9,1,1,1,0,1,0,0,0,0,0
+SR protein,TRA2A,1,1,1,1,0,0,0,0,0,0
+SR protein,TRA2B,1,1,1,1,1,0,0,0,0,1
+SR related,SRRM1,1,1,1,1,1,0,1,1,1,1
+SR related,SRRM2,1,1,1,1,1,0,1,1,1,1
+linked to splicing,DBR1,1,1,1,1,1,1,1,1,1,1
+linked to splicing,NONO,1,1,1,0,0,0,0,0,0,0
+linked to splicing,SFPQ,1,1,1,1,1,0,0,0,0,0
+linked to splicing,SRPK1,1,1,1,1,0,1,1,1,1,1
+alternative splicing factor,CELF1,1,1,1,1,1,0,0,1,1,0
+alternative splicing factor,CELF2,1,1,1,1,0,0,0,1,0,0
+alternative splicing factor,ELAVL1,1,1,1,0,0,0,0,0,0,0
+alternative splicing factor,FUBP1,1,1,1,0,1,0,1,1,0,1
+alternative splicing factor,KHSRP,1,1,1,1,0,0,0,0,1,0
+alternative splicing factor,MBNL1,1,1,1,1,1,0,0,0,0,0
+alternative splicing factor,MBNL2,1,1,1,0,1,0,0,0,0,0
+alternative splicing factor,MBNL3,1,1,1,0,0,0,0,0,0,0
+alternative splicing factor,PTBP1,1,1,1,1,1,0,1,1,1,0
+alternative splicing factor,PTBP2,1,1,1,0,0,0,0,0,1,1
+alternative splicing factor,QKI,1,1,1,1,1,0,0,0,0,1
+alternative splicing factor,RAVER1,1,1,1,0,0,0,0,0,0,0
+alternative splicing factor,RAVER2,1,1,1,0,0,0,0,0,0,0
+alternative splicing factor,RBFOX2,1,1,0,1,1,0,0,0,0,0
+other rna binding domain containing,AGGF1,1,1,1,1,1,1,0,0,0,0
+other rna binding domain containing,CHAMP1,1,1,0,0,0,0,0,0,0,0
+other rna binding domain containing,DDX1,1,1,1,1,1,0,0,0,0,0
+other rna binding domain containing,DDX18,1,1,1,1,1,1,1,1,1,1
+other rna binding domain containing,DDX19B,1,1,0,1,0,0,0,0,0,0
+other rna binding domain containing,DDX21,1,1,1,0,0,0,1,1,1,1
+other rna binding domain containing,DDX27,1,1,1,1,1,1,1,1,1,1
+other rna binding domain containing,DDX39A,1,1,1,0,1,0,1,1,0,0
+other rna binding domain containing,DDX39B,1,1,1,1,1,1,0,1,1,1
+other rna binding domain containing,DDX3Y,1,1,1,1,1,1,0,0,0,1
+other rna binding domain containing,DDX6,1,1,1,1,1,1,1,1,1,1
+other rna binding domain containing,DHX30,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,DHX36,1,1,1,1,0,0,0,0,0,1
+other rna binding domain containing,DHX40,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,DHX57,1,1,1,1,0,1,0,0,0,0
+other rna binding domain containing,GPATCH3,1,1,1,0,1,0,0,0,0,0
+other rna binding domain containing,GPATCH8,1,1,1,0,0,0,0,0,0,1
+other rna binding domain containing,RBM14,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,RBM15B,1,0,0,0,0,0,0,0,0,0
+other rna binding domain containing,RBM26,1,1,1,1,1,0,0,0,0,1
+other rna binding domain containing,RBM27,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,RBM3,1,1,0,0,0,0,0,0,0,1
+other rna binding domain containing,RBM4,1,0,0,0,0,0,0,0,0,0
+other rna binding domain containing,RBM42,1,1,1,1,1,0,1,1,1,1
+other rna binding domain containing,RBM45,1,1,1,1,0,0,0,0,0,0
+other rna binding domain containing,RBM47,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,RBMXL1,1,0,0,0,0,0,0,0,0,0
+other rna binding domain containing,RNF20,1,1,1,0,1,0,1,0,1,1
+other rna binding domain containing,RNF213,1,1,1,0,0,0,0,0,1,0
+other rna binding domain containing,RNF34,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,RNF40,1,1,1,1,0,1,0,1,0,1
+other rna binding domain containing,ZC3H11A,1,1,1,0,0,0,0,0,0,1
+other rna binding domain containing,ZC3H13,1,1,1,0,0,0,0,1,1,0
+other rna binding domain containing,ZC3H18,1,1,1,1,0,0,0,0,0,0
+other rna binding domain containing,ZC3H4,1,1,1,1,1,0,0,0,0,0
+other rna binding domain containing,ZC3HAV1,1,1,0,0,0,0,0,0,0,0
+other rna binding domain containing,ZCCHC8,1,1,1,1,1,0,0,0,0,1
+other rna binding domain containing,ZCRB1,1,1,1,0,0,0,0,0,0,1
+other rna binding domain containing,ZFR,1,1,1,1,1,0,1,0,0,1
+other rna binding domain containing,ZMAT5,1,1,1,1,0,0,0,0,0,1
+other rna binding domain containing,ZMYM3,1,1,0,1,0,0,0,0,0,0
+other rna binding domain containing,ZNF131,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,ZNF207,1,1,1,1,1,0,1,1,1,1
+other rna binding domain containing,ZNF326,1,1,1,0,0,0,0,0,0,0
+other rna binding domain containing,ZNF346,1,1,1,1,0,0,0,0,0,0
+exosome,DIS3,1,1,1,1,1,1,1,1,1,1
+exosome,EXOSC10,1,1,1,1,1,1,1,1,1,1
+exosome,EXOSC2,1,1,1,1,1,1,1,1,1,1
+exosome,EXOSC3,1,1,1,1,1,1,1,1,1,1
+exosome,EXOSC4,1,0,0,0,0,0,0,0,0,0
+exosome,EXOSC7,1,1,1,1,1,0,0,0,0,1
+exosome,EXOSC8,1,1,1,0,0,0,0,0,0,1
+exosome,EXOSC9,1,1,1,1,1,1,1,1,1,1
+TREX,THOC1,1,1,1,1,1,0,1,1,1,1
+TREX,THOC2,1,1,1,1,1,1,1,1,1,1
+TREX,THOC3,1,1,1,1,1,1,1,1,1,1
+TREX,THOC5,1,1,1,1,1,0,0,0,0,1
+TREX,THOC6,1,1,1,1,0,0,0,0,0,1
+TREX,THOC7,1,1,1,1,1,0,0,0,0,1
+CSTF,CSTF1,1,1,1,1,1,0,0,0,0,1
+CSTF,CSTF3,1,1,1,1,1,1,0,0,0,1
+CPSF,CPSF1,1,1,1,1,1,1,0,0,0,1
+CPSF,CPSF2,1,1,1,1,1,0,0,0,0,1
+CPSF,CPSF3,1,1,1,1,1,1,1,1,1,1
+CPSF,CPSF4,1,1,1,1,1,1,1,1,0,0
+CPSF,CPSF6,1,1,1,1,1,0,0,0,0,1
+CPSF,CPSF7,1,1,0,0,0,0,0,0,0,1
+CPSF,NUDT21,1,1,1,1,1,0,0,0,0,1
+GEM,DDX20,1,1,1,1,1,0,0,0,0,0
+GEM,GEMIN2,1,1,1,1,1,0,0,0,0,1
+GEM,GEMIN5,1,1,1,1,0,0,0,0,0,0
+ribosome,RPS16,1,1,1,1,1,1,1,1,1,1
+ribosome,RPS18,1,1,1,1,1,1,1,1,1,1
+ribosome,RPS9,1,1,1,1,1,1,1,1,1,1
+ribosome,UBA52,1,1,1,1,1,1,1,1,1,1
+translation-related,EEF1A1,1,1,1,1,0,1,1,1,1,1
+translation-related,EEF1A2,1,1,1,0,1,0,0,0,0,0
+translation-related,EEF1D,1,1,1,1,0,0,0,0,0,0
+translation-related,EEF1E1,1,1,1,1,0,0,0,0,0,0
+translation-related,EEF1G,1,1,1,1,1,1,1,1,1,1
+translation-related,EEF2,1,1,1,1,1,1,1,1,1,1
+translation-related,EIF2B4,1,1,1,1,1,1,1,1,1,1
+translation-related,EIF2B5,1,1,1,1,1,1,1,1,1,1
+translation-related,EIF2C1,1,1,1,1,0,0,0,0,0,0
+translation-related,EIF2S3,1,1,1,1,1,1,1,1,1,1
+translation-related,EIF3A,1,1,1,1,1,1,1,1,1,1
+translation-related,EIF3B,1,1,1,1,1,1,1,1,1,1
+translation-related,EIF3C,1,1,0,1,1,1,1,1,1,1
+translation-related,EIF3E,1,1,1,1,1,0,1,1,1,1
+translation-related,EIF3H,1,1,1,1,1,0,1,0,1,1
+translation-related,EIF3L,1,1,1,1,1,0,1,1,1,1
+translation-related,EIF4A1,1,1,1,0,0,1,0,0,0,0
+translation-related,EIF4A2,1,1,1,1,1,0,0,0,0,1
+translation-related,EIF4G1,1,1,1,1,1,1,0,0,1,1
+translation-related,EPRS,1,1,1,1,1,1,1,1,1,1
+translation-related,FARSA,1,1,1,1,1,1,1,1,1,1
+translation-related,IARS,1,1,1,1,1,1,1,1,1,1
+translation-related,KARS,1,1,1,1,1,1,1,1,1,1
+translation-related,MARS,1,1,1,1,1,1,1,1,1,1
+translation-related,QARS,1,1,1,1,1,1,1,1,1,1
+translation-related,RARS,1,1,1,1,1,0,1,1,1,1
+translation-related,SRP19,1,1,1,1,1,1,1,1,1,1
+translation-related,SRP68,1,1,1,1,1,1,1,1,1,1
+translation-related,TRMT1L,1,1,1,0,0,0,0,0,0,0
+translation-related,VARS,1,1,0,1,1,1,1,1,1,1
+common MS contaminants,ACTB,1,1,1,0,1,1,1,0,0,1
+common MS contaminants,ACTG1,1,1,1,1,0,1,1,1,1,1
+common MS contaminants,ACTL6A,1,1,1,1,0,0,0,0,1,1
+common MS contaminants,ACTN4,1,1,1,0,0,0,0,0,0,0
+common MS contaminants,ALDOA,1,1,1,1,1,0,1,1,1,1
+common MS contaminants,ALDOC,1,1,1,0,0,0,0,0,0,0
+common MS contaminants,ARPC4,1,1,1,1,1,1,1,1,0,1
+common MS contaminants,CSNK2A1,1,1,1,1,1,1,1,1,1,1
+common MS contaminants,DCD,1,0,0,0,0,0,0,0,0,0
+common MS contaminants,DSP,1,1,1,0,0,0,0,1,0,0
+common MS contaminants,DYNC1H1,1,1,1,1,1,1,1,1,1,0
+common MS contaminants,DYNC1I2,1,1,1,1,1,0,1,1,1,0
+common MS contaminants,DYNC1LI1,1,1,1,1,0,0,1,1,1,0
+common MS contaminants,MYH9,1,1,0,0,0,0,0,0,0,0
+common MS contaminants,PFKM,1,1,1,1,1,0,0,0,1,0
+common MS contaminants,TJP1,1,1,1,1,1,0,0,0,0,0
+common MS contaminants,TUBA1B,1,1,1,0,0,0,0,0,0,0
+common MS contaminants,TUBA4A,1,1,0,0,0,1,0,0,0,0
+common MS contaminants,TUBB,1,1,1,0,0,0,1,1,1,0
+common MS contaminants,TUBB4B,1,1,1,1,1,1,1,1,1,1
+common MS contaminants,TUBB6,1,1,1,0,0,0,0,0,0,0
+nuclear import/export machinery,KPNA1,1,1,1,0,0,0,0,0,0,0
+nuclear import/export machinery,KPNA2,1,1,1,1,0,0,0,1,0,0
+nuclear import/export machinery,KPNB1,1,1,1,1,1,1,0,1,1,1
+nuclear import/export machinery,RAE1,1,1,1,1,1,1,1,1,1,1
+nuclear import/export machinery,RANBP2,1,1,1,1,1,0,0,0,0,0
+nuclear import/export machinery,RANBP9,1,1,1,1,1,1,0,1,1,0
+nuclear import/export machinery,RANGAP1,1,1,1,1,1,1,1,1,1,1
+nuclear pore complex,NUP107,1,1,1,1,1,1,0,0,0,1
+nuclear pore complex,NUP133,1,1,1,1,1,0,0,0,0,1
+nuclear pore complex,NUP153,1,1,1,1,0,1,0,0,1,0
+nuclear pore complex,NUP160,1,1,1,1,1,0,0,0,0,1
+nuclear pore complex,NUP205,1,1,1,1,1,1,0,0,0,1
+nuclear pore complex,NUP210,1,1,1,1,1,0,0,0,1,1
+nuclear pore complex,NUP214,1,1,1,1,1,0,0,0,0,1
+nuclear pore complex,NUP35,1,1,1,1,1,1,0,0,0,1
+nuclear pore complex,NUP54,1,1,1,1,1,1,0,0,0,1
+nuclear pore complex,NUP88,1,1,1,1,0,0,0,0,0,1
+nuclear pore complex,NUP93,1,1,1,1,1,1,0,0,0,1
+coatomer protein complex,COPA,1,1,1,1,1,1,1,1,1,1
+coatomer protein complex,COPB1,1,1,1,1,1,1,1,1,1,1
+coatomer protein complex,COPB2,1,1,1,1,1,1,1,1,1,1
+coatomer protein complex,COPG1,1,1,0,0,0,0,1,1,0,0
+chromatin-related,BAZ1A,1,1,1,1,1,0,0,0,0,1
+chromatin-related,BRD8,1,1,1,1,0,0,0,0,0,0
+chromatin-related,BRPF3,1,1,1,0,0,0,0,0,1,0
+chromatin-related,CBX3,1,1,1,0,1,0,0,0,0,0
+chromatin-related,CHAF1B,1,1,1,1,1,1,1,1,1,1
+chromatin-related,CHD4,1,1,1,1,1,0,0,0,0,0
+chromatin-related,CREBBP,1,1,1,1,0,0,0,0,1,1
+chromatin-related,EIF2AK4,1,1,1,1,1,1,1,1,1,1
+chromatin-related,GTF2I,1,1,0,0,0,0,0,0,0,0
+chromatin-related,GTF3C1,1,1,1,1,1,0,0,0,0,1
+chromatin-related,GTF3C2,1,1,1,1,0,0,0,0,0,1
+chromatin-related,GTF3C3,1,1,1,1,1,1,1,0,1,1
+chromatin-related,GTF3C4,1,1,1,0,0,0,0,0,0,0
+chromatin-related,GTF3C5,1,1,1,1,1,1,1,0,1,1
+chromatin-related,H1F0,1,1,1,0,1,1,0,1,0,1
+chromatin-related,H2AFX,1,1,1,0,0,1,0,0,1,0
+chromatin-related,HDAC2,1,1,1,1,0,1,0,0,0,0
+chromatin-related,HIST1H1E,1,1,0,1,0,0,0,0,0,0
+chromatin-related,HIST1H2AB,1,1,0,0,0,0,0,0,0,0
+chromatin-related,HIST1H2AD,1,0,0,0,0,0,0,0,0,0
+chromatin-related,HIST1H2AE,1,1,0,0,0,0,0,0,0,0
+chromatin-related,HIST1H2BJ,1,0,0,0,0,0,1,0,0,0
+chromatin-related,HIST1H2BK,1,0,0,0,0,0,0,0,0,0
+chromatin-related,HIST1H4A,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4B,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4C,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4D,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4E,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4F,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4H,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4I,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4J,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4K,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST1H4L,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST2H4A,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST2H4B,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HIST4H4,1,1,1,1,1,1,1,1,1,1
+chromatin-related,HP1BP3,1,1,1,0,0,0,0,0,0,0
+chromatin-related,MCM2,1,1,1,1,1,1,1,1,1,1
+chromatin-related,MCM3,1,1,1,1,1,1,1,1,1,1
+chromatin-related,MCM4,1,1,1,1,1,1,1,1,1,1
+chromatin-related,MCM6,1,1,1,1,1,1,0,1,1,1
+chromatin-related,MCM7,1,1,1,1,1,1,1,1,1,1
+chromatin-related,MED1,1,1,1,1,0,0,0,0,0,0
+chromatin-related,MED12,1,1,1,0,1,0,0,0,0,1
+chromatin-related,MED23,1,1,1,1,1,0,0,0,0,1
+chromatin-related,NCAPD3,1,1,1,1,1,0,0,0,0,1
+chromatin-related,NCAPG,1,1,1,1,0,1,0,0,0,1
+chromatin-related,NCAPG2,1,1,1,0,1,0,0,0,0,1
+chromatin-related,NCAPH2,1,1,1,0,1,0,0,0,0,1
+chromatin-related,ORC3,1,1,1,1,0,0,0,0,0,1
+chromatin-related,PBRM1,1,1,1,1,1,1,0,0,0,0
+chromatin-related,RAD50,1,1,1,1,1,1,1,1,1,1
+chromatin-related,TOP2A,1,1,1,1,1,1,1,1,1,0
+chromatin-related,TRRAP,1,1,1,1,1,1,0,0,1,1
+chromatin-related,WDHD1,1,1,1,1,1,1,1,1,1,1
+chromatin-related,XRCC5,1,1,1,1,1,0,1,1,1,1
+SMARC- chromatin-related,SMARCA2,1,1,1,1,1,1,1,1,1,1
+SMARC- chromatin-related,SMARCA4,1,1,1,1,1,1,1,1,1,1
+SMARC- chromatin-related,SMARCA5,1,1,1,1,1,1,1,1,1,1
+SMARC- chromatin-related,SMARCB1,1,1,1,1,1,1,1,1,1,1
+SMARC- chromatin-related,SMARCC1,1,1,1,0,0,0,1,1,0,0
+SMARC- chromatin-related,SMARCC2,1,1,1,1,1,1,1,1,1,1
+SMARC- chromatin-related,SMARCD1,1,1,1,1,1,0,0,0,1,1
+SMARC- chromatin-related,SMARCD2,1,1,1,0,0,1,0,0,0,0
+SMARC- chromatin-related,SMARCE1,1,1,1,1,1,0,0,0,0,0
+proteosome,PSMA3,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMA6,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMA7,1,1,0,0,1,1,1,1,1,1
+proteosome,PSMB1,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMB2,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMC1,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMC3,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMC4,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMD1,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMD11,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMD12,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMD14,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMD2,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMD3,1,1,1,1,1,1,1,1,1,1
+proteosome,PSMD7,1,1,1,1,1,1,1,1,1,1
+proteosome,PSME3,1,1,1,1,1,0,0,0,0,0
+anaphase promoting complex,ANAPC1,1,1,1,1,1,1,1,1,1,1
+anaphase promoting complex,ANAPC2,1,1,1,1,1,1,1,1,1,1
+anaphase promoting complex,ANAPC4,1,1,1,1,0,0,0,0,1,1
+anaphase promoting complex,ANAPC5,1,1,1,1,1,0,0,1,1,1
+anaphase promoting complex,ANAPC7,1,1,1,1,0,0,0,0,0,1
+exocyst,EXOC2,1,1,1,1,1,1,0,0,0,1
+exocyst,EXOC4,1,1,1,1,1,1,0,0,0,1
+exocyst,EXOC5,1,1,1,1,1,1,0,0,1,1
+exocyst,EXOC6B,1,1,1,1,1,1,0,1,1,0
+integrator complex,INTS1,1,1,1,1,1,0,0,0,0,0
+integrator complex,INTS3,1,1,1,1,1,0,0,0,1,1
+integrator complex,INTS4,1,1,1,1,1,0,1,1,1,1
+integrator complex,INTS5,1,1,1,1,1,0,0,0,0,0
+integrator complex,INTS6,1,1,1,0,1,0,0,1,0,0
+integrator complex,INTS7,1,1,1,1,1,0,0,0,0,1
+chaperonin/heat shock,CCT2,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,CCT3,1,1,1,1,1,1,0,1,1,1
+chaperonin/heat shock,CCT4,1,1,1,1,1,1,0,1,1,1
+chaperonin/heat shock,CCT5,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,CCT6A,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,CCT7,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,CCT8,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,DNAJA1,1,1,1,0,1,1,1,0,1,1
+chaperonin/heat shock,DNAJB1,1,1,1,0,0,1,0,0,0,1
+chaperonin/heat shock,DNAJC13,1,1,0,1,1,0,0,0,0,1
+chaperonin/heat shock,DNAJC17,1,1,1,1,1,0,0,0,1,1
+chaperonin/heat shock,DNAJC6,1,1,1,0,1,1,0,0,0,0
+chaperonin/heat shock,DNAJC8,1,1,1,1,1,0,1,1,1,1
+chaperonin/heat shock,HSP90AA1,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,HSP90AB1,1,1,1,0,1,1,1,1,0,0
+chaperonin/heat shock,HSP90B1,1,1,1,1,1,0,1,1,1,1
+chaperonin/heat shock,HSPA1A,1,1,0,0,0,0,0,0,0,0
+chaperonin/heat shock,HSPA1B,1,1,0,0,0,0,0,0,0,0
+chaperonin/heat shock,HSPA2,1,1,0,0,0,0,0,0,1,0
+chaperonin/heat shock,HSPA4,1,1,1,0,0,1,1,1,1,1
+chaperonin/heat shock,HSPA5,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,HSPA6,1,0,0,0,0,0,0,0,0,0
+chaperonin/heat shock,HSPB1,1,1,1,0,1,0,0,0,0,0
+chaperonin/heat shock,HSPD1,1,1,1,1,1,1,1,1,1,1
+chaperonin/heat shock,HSPH1,1,1,0,0,0,0,0,0,0,0
+Other,ABCF2,1,1,1,1,1,1,0,0,0,1
+Other,ABCF3,1,1,0,1,1,1,1,1,1,1
+Other,ACLY,1,1,1,1,1,0,0,0,0,1
+Other,ACSS1,1,1,1,0,0,1,0,0,0,0
+Other,ACTA2,1,1,1,0,0,0,0,0,0,0
+Other,ACTBL2,1,1,0,0,0,0,0,0,0,0
+Other,ACTN1,1,1,1,0,0,0,0,0,0,0
+Other,ACTR2,1,1,1,1,1,1,1,1,1,1
+Other,ADAR,1,1,1,0,0,0,0,1,0,0
+Other,ADARB1,1,1,1,1,1,1,0,0,0,1
+Other,ADRM1,1,1,1,1,1,0,1,1,1,1
+Other,AEBP1,1,1,1,0,0,0,0,0,0,0
+Other,AGL,1,1,1,1,1,1,1,1,1,0
+Other,AHCY,1,1,1,1,1,1,1,1,1,1
+Other,AHNAK,1,1,1,1,0,0,0,0,0,0
+Other,AKAP17A,1,1,1,1,1,0,0,0,0,1
+Other,AKAP8,1,1,0,0,0,0,0,0,0,0
+Other,ALB,1,1,0,0,0,0,0,0,0,0
+Other,ANKRD11,1,1,1,1,0,0,0,0,0,0
+Other,ANP32A,1,1,1,1,1,0,1,0,0,0
+Other,ANXA1,1,1,1,0,0,0,0,0,0,0
+Other,ANXA2,1,1,1,0,0,0,0,0,0,0
+Other,AP1G1,1,1,1,1,1,1,1,1,1,1
+Other,AP2B1,1,1,1,0,1,1,1,0,1,0
+Other,AP3D1,1,1,1,1,1,1,0,0,1,1
+Other,APEX1,1,1,1,1,1,0,1,1,1,1
+Other,APOBEC3A,1,0,0,0,0,0,0,0,0,0
+Other,ARCN1,1,1,1,1,1,1,1,1,1,1
+Other,ARGLU1,1,1,1,1,0,0,0,0,0,1
+Other,ARHGEF2,1,1,1,0,0,0,0,0,0,0
+Other,ARID1A,1,1,1,1,1,0,0,0,1,0
+Other,ARID1B,1,1,1,1,0,0,0,0,0,0
+Other,ARID2,1,1,1,1,1,0,1,1,1,1
+Other,ARL6IP4,1,1,1,1,0,0,0,0,0,0
+Other,ARPC3,1,1,1,1,1,1,1,1,1,1
+Other,ASH2L,1,1,1,1,1,0,0,0,1,1
+Other,ATAD3A,1,1,0,1,1,0,0,0,0,1
+Other,ATAD3B,1,0,1,1,1,0,0,1,1,1
+Other,ATP1B3,1,1,1,0,0,0,0,0,0,0
+Other,ATP5B,1,1,1,1,1,1,1,1,1,1
+Other,ATP5I,1,1,1,1,1,0,0,0,0,0
+Other,ATR,1,1,1,1,1,1,0,0,1,1
+Other,ATRX,1,1,1,1,1,0,0,0,0,1
+Other,BAG2,1,1,1,1,1,0,0,0,0,0
+Other,BCL2L2,1,1,0,0,1,0,0,0,0,0
+Other,BCLAF1,1,1,0,0,0,0,0,0,0,0
+Other,BEND3,1,1,1,0,0,0,0,0,0,0
+Other,BHLHE40,1,1,1,0,0,0,0,0,0,0
+Other,BUB3,1,1,1,1,1,0,0,0,0,1
+Other,BZW1,1,1,1,1,0,0,0,0,0,0
+Other,C10orf71,1,1,0,0,0,0,0,0,0,0
+Other,C11orf2,1,1,1,1,1,0,1,1,1,1
+Other,C11orf57,1,1,1,0,0,0,0,0,0,0
+Other,C14orf166,1,1,1,1,1,0,0,0,0,0
+Other,C15orf44,1,1,1,1,0,0,0,0,0,0
+Other,C17orf85,1,1,1,0,0,0,0,0,1,0
+Other,C19orf43,1,1,1,1,0,0,0,0,0,0
+Other,C19orf53,1,1,1,0,0,0,0,0,0,0
+Other,C1QBP,1,1,1,1,1,0,0,0,0,1
+Other,C1orf35,1,1,1,0,0,0,1,1,1,1
+Other,C20orf4,1,1,1,1,1,0,1,1,1,1
+Other,C22orf28,1,1,1,1,1,0,0,0,0,0
+Other,C2orf49,1,1,1,0,0,0,0,0,0,0
+Other,CACYBP,1,1,1,1,0,0,1,1,1,1
+Other,CAD,1,1,1,1,1,1,0,0,0,0
+Other,CALML5,1,1,0,0,0,0,0,0,0,0
+Other,CAMK2A,1,0,0,0,0,0,0,0,0,0
+Other,CAMK2B,1,1,1,0,0,0,0,0,0,0
+Other,CAMK2G,1,1,1,0,1,0,1,0,0,0
+Other,CAND1,1,1,1,1,1,0,1,1,1,1
+Other,CAPZA1,1,1,1,1,1,0,1,0,1,0
+Other,CASKIN1,1,1,1,0,1,0,0,0,0,0
+Other,CAST,1,1,1,0,0,0,0,0,0,0
+Other,CCDC22,1,1,1,1,1,0,1,1,1,1
+Other,CCDC47,1,1,1,1,1,0,1,1,1,1
+Other,CCDC9,1,1,1,0,1,0,0,0,0,0
+Other,CCNK,1,1,1,1,1,0,0,0,1,1
+Other,CDC23,1,1,1,1,1,1,1,1,1,1
+Other,CDC27,1,1,1,1,1,1,1,1,1,1
+Other,CDC73,1,1,1,1,1,1,1,1,1,1
+Other,CDK1,1,1,1,1,1,0,1,1,0,0
+Other,CDK11A,1,0,0,0,0,0,0,0,0,0
+Other,CDK11B,1,1,1,1,1,0,1,1,1,1
+Other,CDK12,1,1,1,1,1,1,0,1,0,1
+Other,CDK9,1,1,1,1,1,0,1,1,0,0
+Other,CDKL5,1,1,1,0,0,0,1,1,1,0
+Other,CDPF1,1,1,1,1,1,0,0,0,0,0
+Other,CDSN,1,0,0,0,0,0,0,0,0,0
+Other,CGB2,1,0,0,0,0,0,0,0,0,0
+Other,CHD8,1,1,1,0,1,0,0,1,0,0
+Other,CHTF18,1,1,1,1,1,1,0,0,1,1
+Other,CHTOP,1,1,1,0,0,0,0,0,0,0
+Other,CIR1,1,1,1,1,1,0,0,0,0,1
+Other,CIRBP,1,1,1,0,0,0,0,0,0,0
+Other,CKAP5,1,1,1,1,1,1,1,1,1,1
+Other,CKMT1A,1,1,1,0,0,0,0,0,1,0
+Other,CKMT1B,1,1,1,0,0,0,0,0,1,0
+Other,CLK2,1,1,1,1,1,0,1,0,1,1
+Other,CLK4,1,1,1,0,0,0,0,0,0,0
+Other,CLP1,1,1,1,1,1,1,1,1,1,1
+Other,CLTC,1,1,1,1,1,1,1,1,1,1
+Other,CLTCL1,1,0,0,0,0,0,0,0,0,0
+Other,CNOT3,1,1,1,1,1,1,1,1,1,1
+Other,COBRA1,1,1,1,1,0,0,0,0,0,0
+Other,COIL,1,1,1,0,0,0,0,0,0,1
+Other,COL1A1,1,1,1,0,0,0,0,0,0,1
+Other,CORO1B,1,1,0,1,0,0,0,0,0,0
+Other,CORO1C,1,1,1,0,0,0,0,1,0,0
+Other,CPS1,1,1,1,0,0,0,0,0,0,1
+Other,CRIPT,1,1,1,1,1,0,0,1,1,1
+Other,CSDA,1,1,0,1,1,0,0,0,0,1
+Other,CSE1L,1,1,1,1,1,1,1,1,1,1
+Other,CSNK2A2,1,1,1,0,0,1,1,0,0,0
+Other,CSNK2B,1,0,0,0,0,0,0,0,0,0
+Other,CTNNB1,1,1,1,1,1,0,0,0,0,0
+Other,CTNND1,1,1,1,0,0,0,0,0,0,0
+Other,CTSD,1,1,1,1,1,1,0,1,1,1
+Other,CUL4A,1,1,0,1,0,0,1,1,1,1
+Other,CUX1,1,1,1,1,1,1,0,0,0,1
+Other,CWF19L1,1,1,1,1,1,1,0,0,1,1
+Other,CWF19L2,1,1,1,1,1,0,1,1,1,1
+Other,DDB1,1,1,1,1,1,0,0,0,0,1
+Other,DDX19-DDX19L,0,0,0,0,0,0,0,0,0,0
+Other,DENR,1,1,1,1,1,1,1,1,1,1
+Other,DIDO1,1,1,1,1,0,0,1,1,0,0
+Other,DKC1,1,1,1,1,1,1,1,1,1,1
+Other,DLGAP5,1,1,1,1,0,0,0,0,0,0
+Other,DNM2,1,1,1,0,0,0,0,0,0,0
+Other,DNMT1,1,1,1,0,0,0,0,0,0,1
+Other,DPF2,1,1,1,1,0,0,0,0,0,0
+Other,DSG1,1,1,0,0,0,0,0,0,0,0
+Other,DUSP11,1,1,1,1,1,0,0,0,0,0
+Other,EBNA1BP2,1,1,1,1,1,1,0,0,1,1
+Other,EIF2A,1,1,1,1,1,1,1,1,1,1
+Other,EIF2B1,1,1,1,1,1,1,1,1,1,1
+Other,EIF2S2,1,1,1,1,1,1,1,1,1,1
+Other,EIF3CL,1,0,1,0,0,1,1,1,1,1
+Other,EIF3F,1,1,1,1,1,0,0,0,0,1
+Other,EIF3I,1,1,1,1,1,1,1,1,1,1
+Other,EIF3M,1,1,1,1,1,0,0,1,1,1
+Other,EIF4B,1,1,1,1,0,1,0,0,0,0
+Other,EIF4H,1,1,1,1,1,0,0,0,0,0
+Other,ELMO2,1,1,0,0,1,0,0,0,0,0
+Other,ENO1,1,1,1,1,1,0,0,1,0,1
+Other,EP300,1,1,1,1,1,0,0,0,0,1
+Other,ESRP2,1,1,0,0,0,0,1,0,0,0
+Other,ESYT1,1,1,1,0,0,1,0,0,0,1
+Other,EXOSC5,1,1,1,1,1,1,0,0,0,1
+Other,EXOSC6,1,1,1,0,0,0,0,0,0,0
+Other,EZR,1,1,1,0,1,0,0,0,0,0
+Other,FABP5,1,1,0,0,0,0,0,0,0,0
+Other,FAM120A,1,1,1,0,0,0,0,0,0,0
+Other,FAM129B,1,1,1,0,0,0,0,0,0,0
+Other,FAM131B,1,1,1,0,0,0,0,0,0,0
+Other,FAM189B,1,1,1,0,0,0,0,0,0,0
+Other,FAM192A,1,1,1,1,1,0,0,0,0,1
+Other,FAM98B,1,1,0,0,1,0,0,0,0,0
+Other,FANCI,1,1,1,1,1,0,0,0,0,1
+Other,FASN,1,1,1,1,1,0,0,0,0,0
+Other,FBL,1,1,1,1,1,1,1,1,1,1
+Other,FGD6,1,1,1,0,0,0,0,0,0,0
+Other,FIP1L1,1,1,1,1,1,1,0,0,0,1
+Other,FLG2,1,1,0,0,0,0,0,0,0,0
+Other,FLNA,1,1,1,1,1,0,0,0,0,0
+Other,FLNB,1,1,0,0,0,0,0,0,0,1
+Other,FNBP4,1,1,1,0,0,0,0,0,0,1
+Other,FTSJD2,1,1,1,1,1,0,0,0,0,0
+Other,FYTTD1,1,1,1,0,0,0,0,0,0,0
+Other,G3BP2,1,1,1,1,1,0,1,1,0,1
+Other,GAPDH,1,1,1,1,1,1,1,1,1,1
+Other,GATAD2A,1,1,1,1,1,0,0,0,0,0
+Other,GATAD2B,1,1,1,0,0,0,0,0,0,0
+Other,GBE1,1,1,1,1,1,1,1,1,1,1
+Other,GCFC2,1,1,1,0,1,0,0,0,0,0
+Other,GCN1L1,1,1,1,1,1,1,1,1,1,1
+Other,GEMIN4,1,1,1,0,0,0,0,0,0,0
+Other,GEMIN6,1,1,1,0,1,0,0,0,0,0
+Other,GEMIN8,1,1,1,0,1,0,0,0,0,0
+Other,GFAP,1,1,1,0,0,0,0,0,0,0
+Other,GLE1,1,1,1,1,0,1,0,0,0,1
+Other,GNL3,1,1,1,0,0,1,0,0,0,1
+Other,GNL3L,1,1,1,1,1,0,1,1,1,1
+Other,GPI,1,1,1,1,1,1,1,1,1,1
+Other,GSPT1,1,1,1,1,1,1,1,0,0,1
+Other,HBB,1,1,0,0,0,0,0,0,0,0
+Other,HCFC1,1,1,1,1,1,0,1,1,1,1
+Other,HIP1R,1,1,1,0,0,1,0,0,0,0
+Other,HIST1H2AI,1,0,0,0,0,0,0,0,0,0
+Other,HMGA1,1,1,1,0,0,0,0,0,0,1
+Other,HMGB2,1,1,1,0,1,0,1,0,0,0
+Other,HSDL2,1,1,1,1,1,0,1,1,1,0
+Other,IGF2BP1,1,1,1,1,0,0,0,0,0,0
+Other,IGHA1,0,0,0,0,0,0,0,0,0,0
+Other,ILF2,1,1,1,1,1,0,0,0,0,0
+Other,ILF3,1,1,1,0,0,0,0,0,0,0
+Other,IMPDH1,1,1,1,1,1,1,1,1,1,1
+Other,IMPDH2,1,1,1,0,0,0,0,0,0,0
+Other,IQGAP1,1,1,1,0,0,0,0,0,0,0
+Other,IRF2BPL,1,1,1,0,0,0,0,0,0,0
+Other,ITPRIP,1,1,1,0,0,0,0,0,0,0
+Other,KANSL3,1,1,1,1,1,0,0,0,0,1
+Other,KDM1A,1,1,1,1,1,0,0,0,0,1
+Other,KHDRBS3,1,1,1,1,0,0,0,0,0,0
+Other,KIAA0907,1,1,1,0,0,0,0,1,0,1
+Other,KIAA1429,1,1,1,1,0,0,0,0,0,1
+Other,KIAA1524,1,1,1,1,1,0,0,0,0,0
+Other,KIF11,1,1,1,1,1,1,0,0,0,1
+Other,KIF16B,1,1,1,1,0,0,0,0,0,0
+Other,KIF17,1,1,1,0,1,0,0,0,0,0
+Other,KIF23,1,1,1,1,1,0,0,0,0,0
+Other,KIF2B,1,1,0,0,0,0,0,0,0,0
+Other,KIF4A,1,1,1,1,1,0,1,1,0,1
+Other,KNG1,1,1,1,0,0,0,0,0,0,1
+Other,KPNA6,1,1,1,1,0,1,1,0,1,1
+Other,KPRP,1,1,0,0,0,0,0,0,0,0
+Other,KRT1,1,1,0,0,0,0,1,0,0,0
+Other,KRT2,1,1,0,0,0,0,0,0,0,0
+Other,KRT75,1,1,0,0,0,0,0,0,0,0
+Other,KRT9,1,1,0,0,0,0,0,0,1,0
+Other,KRTAP10-1,1,0,0,0,0,0,0,0,0,0
+Other,KRTAP4-3,1,1,0,1,0,0,0,0,0,0
+Other,LARP7,1,1,1,1,0,1,1,1,1,0
+Other,LAS1L,1,1,1,1,1,1,0,0,0,1
+Other,LDHA,1,1,1,0,0,0,0,0,0,1
+Other,LGALS3,1,1,1,0,0,0,0,0,0,0
+Other,LGALS7,1,1,0,0,0,0,0,0,0,0
+Other,LMNA,1,1,1,1,0,0,0,0,0,0
+Other,LMNB1,1,1,1,1,1,0,0,0,0,0
+Other,LOC100286979,0,0,0,0,0,0,0,0,0,0
+Other,LOC100505793,0,0,0,0,0,0,0,0,0,0
+Other,LOC440563,1,0,0,1,1,0,0,0,0,0
+Other,LOC643167,1,1,1,1,1,0,1,1,1,1
+Other,LOC731605,0,0,0,0,0,0,0,0,0,0
+Other,LRPPRC,1,1,1,1,1,0,0,1,0,1
+Other,LUC7L2,1,1,0,1,0,0,0,0,0,0
+Other,LUC7L3,1,1,1,1,1,0,1,1,1,1
+Other,LYZ,1,1,0,1,0,0,0,0,0,0
+Other,MACF1,1,1,1,0,1,0,0,0,0,0
+Other,MAGOHB,1,1,1,1,1,0,1,1,1,1
+Other,MAP1B,1,1,1,1,1,0,0,0,0,0
+Other,MAP4,1,1,1,1,1,0,0,0,0,0
+Other,MAPRE1,1,1,1,1,1,1,1,0,0,0
+Other,MAPT,1,0,1,1,0,0,0,0,0,0
+Other,MBD3,1,1,1,0,1,0,0,0,0,0
+Other,MBD5,1,1,1,1,0,0,0,0,0,0
+Other,MBP,1,1,1,0,0,0,0,0,0,0
+Other,MCM5,1,1,1,1,1,1,1,1,1,1
+Other,MED8,1,1,1,1,1,0,0,0,0,0
+Other,MIOS,1,1,1,1,1,1,0,1,1,0
+Other,MOCOS,1,1,0,1,1,0,0,0,0,1
+Other,MORF4L1,1,1,1,1,1,1,0,0,0,1
+Other,MRE11A,1,1,1,1,1,1,0,1,1,1
+Other,MRPL12,1,1,1,1,1,1,1,1,1,1
+Other,MSH2,1,1,1,1,1,1,1,1,1,1
+Other,MSH6,1,1,1,1,1,1,1,1,1,1
+Other,MSI2,1,1,1,1,1,0,0,0,0,0
+Other,MSN,1,1,1,1,1,0,0,0,0,0
+Other,MTA1,1,1,1,1,1,0,0,0,0,0
+Other,MTA2,1,1,1,0,0,0,0,1,0,0
+Other,MVP,1,1,1,0,0,0,1,1,0,0
+Other,MYL1,1,1,1,0,1,0,0,0,0,0
+Other,MYL6,1,1,1,0,0,0,0,0,0,0
+Other,MYL6B,1,1,0,1,0,0,0,0,0,0
+Other,MYPN,1,1,1,0,0,0,0,0,0,0
+Other,NAP1L1,1,1,1,1,1,1,1,1,1,1
+Other,NCAPD2,1,1,1,1,1,1,1,1,1,1
+Other,NCAPH,1,1,1,1,0,1,0,1,1,1
+Other,NCL,1,1,1,0,1,1,1,1,0,1
+Other,NCOA5,1,1,1,1,0,0,0,1,1,0
+Other,NDUFAF5,1,1,1,1,1,0,1,1,1,1
+Other,NDUFS7,1,1,1,1,1,0,0,0,0,1
+Other,NEDD1,1,1,1,0,0,0,1,1,1,1
+Other,NEFH,1,1,0,0,0,1,0,0,0,0
+Other,NEFL,1,1,1,0,0,0,0,0,0,0
+Other,NEFM,1,1,1,0,0,0,0,0,0,0
+Other,NFKBIL1,1,0,1,0,0,0,0,0,0,0
+Other,NIPBL,1,1,1,1,1,1,0,0,0,1
+Other,NME1,1,1,0,0,0,0,1,0,0,1
+Other,NMI,1,1,1,0,0,0,0,0,0,0
+Other,NOL9,1,1,1,1,1,1,1,1,1,1
+Other,NOLC1,1,1,1,1,1,0,0,0,0,1
+Other,NOP56,1,1,1,1,1,1,1,1,1,1
+Other,NOP58,1,1,1,1,1,1,1,1,1,1
+Other,NOP9,1,1,1,1,1,1,0,0,0,1
+Other,NPAT,1,1,1,0,0,0,0,0,0,0
+Other,NPM1,1,1,1,1,0,0,0,0,0,0
+Other,NPM3,1,1,1,1,0,0,0,0,0,0
+Other,NSRP1,1,1,1,1,1,0,0,0,0,1
+Other,NSUN2,1,1,1,1,1,1,1,1,1,1
+Other,NUCKS1,1,1,1,0,0,0,0,0,0,0
+Other,NUP98,1,1,1,1,1,1,0,1,1,1
+Other,OGT,1,1,1,1,1,0,1,0,1,1
+Other,PA2G4,1,1,1,1,1,0,0,1,1,1
+Other,PAICS,1,1,1,1,1,1,0,0,0,1
+Other,PAIP1,1,1,1,1,0,0,0,0,0,0
+Other,PALLD,1,1,1,0,0,0,0,0,0,0
+Other,PARP1,1,1,1,1,1,0,1,0,0,1
+Other,PCBP3,1,1,1,1,1,1,0,0,0,0
+Other,PCID2,1,1,1,1,1,1,1,1,1,1
+Other,PCNP,1,1,1,0,0,0,0,0,0,0
+Other,PCP4,1,0,1,1,0,0,0,0,0,0
+Other,PDCD11,1,1,1,1,1,1,1,1,1,1
+Other,PDCD6,1,1,1,1,1,1,0,0,0,0
+Other,PDCD7,1,1,1,0,0,0,0,0,0,1
+Other,PDIA3,1,1,1,1,1,0,0,0,0,0
+Other,PDIA4,1,1,1,0,1,1,0,0,0,1
+Other,PDIA6,1,1,1,1,1,1,1,1,1,1
+Other,PDS5A,1,1,1,0,0,1,0,0,0,0
+Other,PELP1,1,1,1,1,0,0,0,0,0,1
+Other,PFKL,1,1,1,0,0,1,1,1,0,1
+Other,PFKP,1,1,1,0,0,0,1,1,0,1
+Other,PGAM1,1,1,1,1,0,0,1,1,1,0
+Other,PGAM2,1,1,1,1,0,1,1,1,1,1
+Other,PGAM5,1,1,1,1,1,0,0,0,0,0
+Other,PGD,1,1,1,1,1,1,0,0,0,1
+Other,PGK1,1,1,1,1,1,1,1,1,1,1
+Other,PHAX,1,1,1,1,1,0,0,0,0,1
+Other,PHB2,1,1,1,1,1,1,1,1,0,1
+Other,PIK3R3,1,1,1,1,0,0,0,0,0,0
+Other,PKD1,1,1,1,0,0,0,0,0,0,0
+Other,PKM,1,1,1,1,1,1,0,1,1,1
+Other,PLP1,1,1,1,0,0,0,0,0,0,0
+Other,PMS2,1,1,1,1,1,1,1,1,1,1
+Other,POF1B,1,1,1,0,0,0,0,0,0,0
+Other,POLDIP3,1,1,1,1,0,0,0,0,0,0
+Other,POLR1C,1,1,1,1,1,1,1,1,1,1
+Other,POLR2C,1,1,1,1,1,1,1,1,1,1
+Other,POLR2E,1,1,1,1,1,1,1,1,1,1
+Other,POLR3A,1,1,1,1,1,1,1,1,1,1
+Other,POLR3B,1,1,1,1,1,1,1,1,1,1
+Other,POLR3C,1,1,1,1,1,1,0,0,1,1
+Other,PPHLN1,1,1,1,0,1,0,0,0,0,0
+Other,PPIB,1,1,1,1,1,1,0,0,0,1
+Other,PPIL4,1,1,1,1,1,0,1,1,1,1
+Other,PPM1G,1,1,1,1,1,0,1,0,1,1
+Other,PPP1CA,1,1,1,0,0,0,0,0,0,0
+Other,PPP1CB,1,1,1,1,1,0,0,0,0,0
+Other,PPP1CC,1,1,1,1,1,1,1,1,1,1
+Other,PPP1R10,1,1,1,1,0,0,0,0,0,0
+Other,PPP2CB,1,1,1,1,1,1,1,1,1,1
+Other,PPP4C,1,1,1,1,1,0,1,1,1,1
+Other,PPP4R2,1,1,1,1,1,0,1,1,1,1
+Other,PRDX1,1,1,1,0,0,0,0,0,0,0
+Other,PRDX2,1,1,0,1,1,1,1,1,1,1
+Other,PRIC285,1,1,1,0,0,0,0,0,0,0
+Other,PRIM2,1,1,1,1,1,1,1,1,1,1
+Other,PRKCH,1,1,1,0,0,0,0,0,0,0
+Other,PRKDC,1,1,1,0,0,0,1,1,1,0
+Other,PRKRIP1,1,1,1,1,1,0,0,0,1,1
+Other,PRMT1,1,1,1,1,1,1,1,1,1,1
+Other,PRMT5,1,1,1,1,1,1,1,1,0,1
+Other,PRRC2A,1,0,1,0,0,0,0,0,0,0
+Other,PSEN1,1,1,1,1,1,0,0,0,0,1
+Other,PSKH1,1,1,1,0,1,0,0,0,0,0
+Other,PSMA1,1,0,0,0,0,0,0,0,0,0
+Other,PSMA2,1,0,0,0,0,0,0,0,0,0
+Other,PSMA5,1,1,1,1,1,1,1,1,1,1
+Other,PSMB3,1,0,0,0,0,0,0,0,0,0
+Other,PSMB4,1,1,1,1,1,1,1,1,1,1
+Other,PSMB6,1,1,1,1,1,1,1,1,1,1
+Other,PSMC2,1,1,1,1,1,1,1,1,1,1
+Other,PSMC5,1,1,1,1,1,1,1,1,1,1
+Other,PSMD6,1,1,1,1,1,1,0,1,1,1
+Other,PTGES3,1,1,1,1,1,1,1,1,1,1
+Other,PYGL,1,1,0,0,0,1,0,1,0,0
+Other,RACGAP1,1,1,1,1,1,0,0,0,0,0
+Other,RAD21,1,1,1,1,1,1,0,0,0,1
+Other,RADIL,1,1,1,0,0,0,0,0,0,0
+Other,RAN,1,1,1,1,1,1,1,1,1,1
+Other,RBBP4,1,1,1,1,1,1,1,1,1,1
+Other,RBBP5,1,1,1,1,1,1,0,0,0,1
+Other,RBBP6,1,1,1,1,1,1,0,0,0,1
+Other,RBM18,1,1,1,1,0,0,0,0,0,1
+Other,RCC1,1,1,1,1,1,1,1,1,1,0
+Other,RCC2,1,1,1,1,0,0,0,0,0,1
+Other,RDBP,1,1,1,1,0,0,0,0,0,0
+Other,RDX,1,1,0,0,0,0,0,0,0,0
+Other,RFC3,1,1,1,1,1,1,1,1,1,1
+Other,RFC4,1,1,1,1,1,1,1,1,1,1
+Other,RFC5,1,1,1,1,1,1,1,1,1,1
+Other,RIF1,1,1,1,1,1,0,0,0,0,0
+Other,RIMS1,1,1,1,0,0,0,0,0,0,0
+Other,RIN1,1,1,1,0,0,0,0,0,0,0
+Other,RPL10,1,1,1,1,1,1,1,0,1,1
+Other,RPL13,1,1,1,1,1,1,1,1,1,1
+Other,RPL13A,1,1,1,1,1,1,1,1,1,1
+Other,RPL14,1,1,1,1,1,1,1,1,1,1
+Other,RPL15,1,1,1,1,1,1,1,1,1,1
+Other,RPL17,1,0,0,0,0,0,0,0,0,0
+Other,RPL18,1,1,1,1,1,1,1,1,1,1
+Other,RPL18A,1,1,1,1,1,1,1,1,1,1
+Other,RPL19,1,1,1,1,1,1,1,1,1,1
+Other,RPL22,1,1,1,1,1,1,1,1,1,1
+Other,RPL24,1,1,1,1,1,1,1,1,1,1
+Other,RPL26,1,1,1,1,1,1,1,1,1,1
+Other,RPL27A,1,1,0,1,1,1,1,1,1,1
+Other,RPL28,1,1,1,1,1,0,0,1,0,1
+Other,RPL29,1,1,1,1,1,1,1,1,1,1
+Other,RPL3,1,1,1,1,1,1,1,1,1,1
+Other,RPL30,1,1,1,1,1,1,1,1,0,1
+Other,RPL31,1,1,1,1,1,1,1,1,1,1
+Other,RPL35,1,1,1,1,1,1,1,1,1,1
+Other,RPL35A,1,1,1,1,1,1,1,1,0,1
+Other,RPL38,1,1,1,1,1,1,0,1,1,1
+Other,RPL4,1,1,1,1,1,1,1,1,1,1
+Other,RPL5,1,1,1,1,1,1,1,1,1,1
+Other,RPL6,1,1,1,1,1,1,1,1,1,1
+Other,RPL7,1,1,1,1,1,1,1,1,1,1
+Other,RPL7A,1,1,1,1,1,1,1,1,1,1
+Other,RPL8,1,1,1,1,1,1,1,1,1,1
+Other,RPL9,1,1,1,1,1,1,1,1,1,1
+Other,RPLP0,1,1,1,1,1,1,1,1,1,1
+Other,RPP30,1,1,1,1,1,1,1,1,1,1
+Other,RPS11,1,1,1,1,1,1,1,1,1,1
+Other,RPS12,1,1,1,1,1,1,1,1,1,1
+Other,RPS13,1,1,1,1,1,1,1,1,1,1
+Other,RPS14,1,1,1,1,1,1,1,1,1,1
+Other,RPS15,1,1,1,1,1,1,1,1,1,1
+Other,RPS15A,1,1,1,1,1,1,1,1,1,1
+Other,RPS17,1,0,0,0,0,0,0,0,0,0
+Other,RPS19,1,1,1,1,1,1,1,1,1,1
+Other,RPS2,1,1,1,1,1,1,1,1,1,1
+Other,RPS20,1,1,0,1,1,1,1,1,1,1
+Other,RPS23,1,1,1,1,1,1,1,1,1,1
+Other,RPS27A,1,1,1,1,1,1,0,0,0,1
+Other,RPS28,1,1,1,1,1,1,1,1,1,1
+Other,RPS3,1,1,1,1,1,1,1,1,1,1
+Other,RPS3A,1,1,1,1,1,1,1,1,1,1
+Other,RPS4X,1,1,1,1,1,1,1,1,1,1
+Other,RPS5,1,1,1,1,1,1,1,1,1,1
+Other,RPS6,1,1,1,1,1,1,1,1,1,1
+Other,RPS8,1,1,1,1,1,1,1,1,1,1
+Other,RPSA,1,0,0,1,1,1,1,1,1,1
+Other,RQCD1,1,1,1,1,1,1,1,1,1,1
+Other,RRP12,1,1,1,1,1,1,1,1,1,1
+Other,RSRC1,1,1,1,0,0,0,0,0,0,0
+Other,RUVBL2,1,1,1,1,1,1,1,1,1,1
+Other,S100A10,1,1,0,0,0,0,0,0,0,0
+Other,S100A11,1,1,0,0,0,0,0,0,0,0
+Other,S100A8,1,1,0,0,0,0,0,0,0,0
+Other,S100A9,1,1,0,0,0,0,0,0,0,0
+Other,SAFB,1,1,0,0,0,0,0,0,0,0
+Other,SAFB2,1,1,1,1,0,0,0,0,0,0
+Other,SAP30BP,1,1,1,1,1,0,0,0,0,1
+Other,SARNP,1,0,1,0,0,0,0,0,0,1
+Other,SCAF11,1,1,1,0,0,0,0,0,0,0
+Other,SCAF4,1,1,1,1,1,1,0,0,0,0
+Other,SCAF8,1,1,0,1,1,0,0,0,0,0
+Other,SEC13,1,1,1,1,1,1,1,1,0,1
+Other,SEC31A,1,1,1,1,1,1,0,1,1,1
+Other,SELENBP1,1,1,1,1,1,0,0,0,1,1
+Other,SEMG1,1,1,0,0,0,0,0,0,0,0
+Other,SEMG2,1,0,0,0,0,0,0,0,0,0
+Other,SERBP1,1,1,1,1,1,0,0,0,0,1
+Other,SERPINB3,1,0,0,1,0,0,0,0,1,0
+Other,SET,1,1,1,1,1,0,0,0,0,1
+Other,SETDB1,1,1,1,1,1,0,0,0,0,0
+Other,SFI1,1,1,1,0,0,0,0,0,0,0
+Other,SFN,1,1,0,0,0,0,0,0,0,0
+Other,SHCBP1,1,1,1,1,0,0,0,0,0,0
+Other,SLC25A3,1,1,1,1,1,1,1,1,1,1
+Other,SLC25A5,1,1,1,1,1,0,0,1,0,1
+Other,SLC3A2,1,1,1,1,0,0,0,0,0,0
+Other,SLC4A1AP,1,1,1,1,1,0,1,1,1,1
+Other,SLFN5,1,1,0,0,0,0,0,0,0,0
+Other,SLTM,1,1,1,1,1,0,0,0,0,0
+Other,SMARCA1,1,1,1,1,1,0,1,1,0,0
+Other,SMARCAD1,1,1,1,1,1,1,0,0,0,1
+Other,SMARCD3,1,1,1,0,1,1,1,1,1,0
+Other,SMC1A,1,1,1,1,1,1,0,0,0,1
+Other,SMC2,1,1,1,1,1,1,1,1,1,1
+Other,SMC3,1,1,1,1,1,1,1,0,0,1
+Other,SMC4,1,1,1,1,1,1,1,1,1,1
+Other,SMCHD1,1,1,1,0,0,0,0,0,0,0
+Other,SMEK1,1,1,1,1,1,1,1,0,1,1
+Other,SMN1,1,0,0,0,1,0,0,0,0,0
+Other,SMN2,1,0,0,0,1,0,0,0,0,0
+Other,SNCA,1,1,0,0,0,0,0,0,0,0
+Other,SND1,1,1,1,1,1,0,1,1,1,1
+Other,SNED1,1,1,1,0,0,0,0,0,0,0
+Other,SNRPN,1,1,1,0,0,0,1,1,1,0
+Other,SNX6,1,1,1,1,1,0,0,0,0,0
+Other,SON,1,1,1,1,1,0,0,0,0,0
+Other,SPEN,1,1,1,1,1,0,0,0,0,0
+Other,SPTAN1,1,1,1,1,1,0,0,0,0,0
+Other,SPTBN1,1,1,1,1,1,0,0,0,0,0
+Other,SQSTM1,1,1,1,1,1,0,1,1,1,1
+Other,SRP72,1,1,1,1,1,1,1,1,1,1
+Other,SSB,1,1,1,1,1,1,0,0,1,1
+Other,SSRP1,1,1,1,1,1,1,1,1,1,1
+Other,STAG2,1,1,1,0,1,0,0,0,0,0
+Other,STRAP,1,1,1,1,0,0,0,0,0,1
+Other,STRBP,1,1,1,0,0,0,0,0,0,0
+Other,SUB1,1,1,1,1,1,1,0,1,1,1
+Other,SUMO1,1,1,1,0,1,0,0,0,0,0
+Other,SUMO3,1,1,0,0,0,0,0,0,0,0
+Other,SYMPK,1,1,1,1,1,1,0,0,0,1
+Other,SYNE1,1,1,1,1,1,0,0,0,0,0
+Other,SYT1,1,1,1,1,1,0,0,0,0,0
+Other,TAF1,1,1,1,1,1,1,1,1,1,1
+Other,TAF15,1,0,0,0,0,0,0,0,0,0
+Other,TAF5,1,1,1,1,1,1,0,0,0,1
+Other,TAF6,1,1,1,1,1,1,0,0,1,1
+Other,TALDO1,1,1,1,1,1,1,1,1,1,1
+Other,TANC1,1,1,1,0,0,0,0,0,0,0
+Other,TARDBP,1,1,1,1,1,0,0,0,0,0
+Other,TARS,1,1,1,1,1,0,1,1,1,1
+Other,TBC1D10B,1,1,1,0,0,0,0,0,0,1
+Other,TBC1D22B,1,1,1,1,1,1,1,1,1,1
+Other,TBL1XR1,1,1,1,1,0,1,0,0,0,1
+Other,TCP1,1,1,1,1,1,1,1,1,1,1
+Other,TDRD3,1,1,1,1,1,0,0,0,0,1
+Other,TEX10,1,1,1,1,1,1,0,0,0,1
+Other,TFE3,1,1,1,0,1,0,0,0,0,0
+Other,TFRC,1,1,1,0,0,0,0,0,0,0
+Other,TIAL1,1,1,1,1,0,0,0,0,0,1
+Other,TKT,1,1,1,1,1,1,1,1,1,1
+Other,TLE3,1,1,1,1,0,0,0,0,0,0
+Other,TLK1,1,1,1,0,0,0,1,1,1,1
+Other,TMSB4X,1,1,1,1,0,0,0,0,0,0
+Other,TNPO2,1,1,1,0,0,0,0,0,0,0
+Other,TOX4,1,1,1,0,0,0,0,0,0,0
+Other,TP53BP1,1,1,1,0,1,1,0,0,0,0
+Other,TPM3,1,1,1,0,0,0,0,0,0,0
+Other,TPM4,1,0,1,0,1,1,0,0,0,0
+Other,TPR,1,1,1,1,1,1,0,0,0,1
+Other,TPX2,1,1,1,0,0,0,0,0,1,1
+Other,TRIM21,1,1,0,0,1,0,0,0,0,0
+Other,TRIM28,1,1,0,0,0,0,0,0,0,0
+Other,TSC2,1,1,1,1,0,0,0,0,0,0
+Other,TTI1,1,1,1,1,1,0,0,0,0,1
+Other,TTN,1,1,1,1,1,0,0,1,0,0
+Other,TUBB2A,1,1,1,0,0,0,0,0,0,1
+Other,TUBB4A,1,1,0,0,0,0,0,0,0,0
+Other,TUBBP1,1,1,1,0,0,0,1,1,1,0
+Other,TUBGCP3,1,1,1,1,0,1,1,1,1,1
+Other,TXLNA,1,1,1,1,1,0,1,0,0,1
+Other,UBA1,1,1,1,1,1,1,1,1,1,1
+Other,UBE2O,1,1,1,1,0,0,0,0,0,1
+Other,UBQLN4,1,1,1,0,0,0,1,1,0,1
+Other,UBR5,1,1,1,1,1,0,0,0,0,0
+Other,USO1,1,1,1,1,1,1,0,0,0,1
+Other,USP28,1,1,1,0,0,1,0,0,0,0
+Other,USP42,1,1,1,0,0,0,0,1,1,1
+Other,USP7,1,1,1,1,1,1,0,1,1,1
+Other,UTP20,1,1,1,1,1,1,1,1,1,1
+Other,VASP,1,1,1,0,0,0,0,0,0,0
+Other,VCL,1,1,1,1,1,0,0,0,0,0
+Other,VCP,1,1,1,1,1,1,1,1,1,1
+Other,VIM,1,1,1,0,0,0,0,0,0,0
+Other,VPS35,1,1,1,1,1,1,1,1,1,1
+Other,WAPAL,1,1,1,1,1,0,0,0,0,1
+Other,WDR33,1,1,1,1,1,1,0,0,1,1
+Other,WDR5,1,1,1,1,1,1,0,0,0,1
+Other,WDR82,1,1,1,1,1,1,1,1,1,1
+Other,WHSC2,1,1,1,1,0,0,0,0,0,0
+Other,WTAP,1,1,1,1,0,0,0,0,0,1
+Other,XPO1,1,1,1,1,1,1,1,1,1,1
+Other,XRCC6,1,1,1,1,1,1,1,1,1,1
+Other,XRN1,1,1,1,1,1,1,1,0,1,0
+Other,YTHDC1,1,1,1,1,0,0,1,1,1,0
+Other,YWHAB,1,1,1,1,0,0,0,0,0,0
+Other,YWHAE,1,1,1,1,0,1,1,1,1,1
+Other,YWHAG,1,1,1,0,0,0,0,0,0,0
+Other,YWHAQ,1,1,1,0,0,0,0,0,0,0
+Other,YY1,1,1,1,1,0,0,1,1,1,1
+Other,ZBTB7A,1,1,1,0,0,0,0,0,0,0
+Other,ZC3H14,1,1,1,1,1,1,0,1,1,0
