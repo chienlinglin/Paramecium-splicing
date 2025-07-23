@@ -22,9 +22,12 @@ Fig1A <- ggplot(intron_position_data, aes(x=intron_to_5_end)) +
 
 ## 02. Figure 1B: number of introns/ gene and gene expression level
 # Import gene expression and intron number data
-
+GE_intron_number <- read.csv("GE_intron_number.csv")
+# Pivot longer
+melt_GE_intron_number <- GE_intron_number |>
+  pivot_longer(cols = 3:18, names_to = 'Sample', values_to = 'Normalized_counts')
 # Plot
-ggplot(melt_GE_intron_number, aes(x=total_intron_number, y = log2(Normalized_counts+1), fill = total_intron_number)) +
+Fig1B <- ggplot(melt_GE_intron_number, aes(x=total_intron_number, y = log(Normalized_counts+1), fill = total_intron_number)) +
   geom_violin() +
   geom_boxplot(outliers = FALSE, width = 0.1)+ # outliners = FALSE: outliers are discarded and not included in the calculation
   geom_signif(
