@@ -116,3 +116,5 @@ Fig4C <- ggscatter(
   size = 0.0015
 ) +     
 ggsave("scatter_plot.png", p, width = 4, height = 4, units = "in", dpi = 600)
+
+## 004. Figure 4D: intron position and PSI association

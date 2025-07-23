@@ -3,7 +3,7 @@ library(tidyverse)
 
 ## 001. Figure 3B: Summary Sig A3SS events
 # Import A3SS counts data 
-sigA3SS_counts <- read_csv("")
+sigA3SS_counts <- read_csv("sigA3SS_counts.csv")
 
 # Order of sample on barplot
 comparison_order <- c("AM11", "PM2", "PM5", "PM8",
