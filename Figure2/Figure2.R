@@ -41,7 +41,7 @@ row_scaled_matrix[is.nan(row_scaled_matrix)] <- 0
 Fig2B <- pheatmap(row_scaled_matrix, 
          cluster_rows = FALSE, 
          cluster_cols = FALSE, 
-         display_numbers = round(count_df_1, 2),  
+         display_numbers = round(count_class_proteins, 2),  
          number_format = "%.2f",
          fontsize_number = 10,
          color = colorRampPalette(c("#38466E", "white", "#DA6C6C"))(30),
