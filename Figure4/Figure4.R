@@ -1,6 +1,7 @@
 # Load library
 library(tidyverse)
 library(plotrix)
+library(ggpubr)
 
 ## 001. Figure 4A: GC content and PSI correlation
 # Import PSI - GC content
@@ -29,7 +30,7 @@ Fig4A <- ggplot(mean_PSI_sum, aes(x = GC_content_round)) +
   geom_errorbar(aes(y = mean_PSI, ymin = mean_PSI - se_PSI, ymax = mean_PSI + se_PSI), color = 'black', width = 0.015) +
   labs(x = "GC content", y = "PSI", color = "Sample")
 
-## 02. Intron retention and intron length 
+## 002. Intron retention and intron length 
 # Import intron length and PSI data 
 intron_length_PSI <- read_csv("intron_length_PSI.csv")
 
@@ -72,3 +73,46 @@ Fig4B <- ggplot(intron_length_PSI_all_long, aes(x = intron_length_cat, y = avg_P
     tip_length = 0.01
   ) +
   theme_bw(base_size = 12)
+
+## 003. Figure 4C: correlation bw PSI and gene expression level
+# Import PSI data: avg PSI in gene
+avg_PSI_each_gene <- read_csv("avg_PSI_each_gene.csv")
+
+# Import gene expression data
+avg_normalized_counts <- read_csv("avg_normalized_counts.csv")
+
+# Merge the gene expression data to PSI 
+merge_GE_PSI <- avg_normalized_count |>
+  right_join(average_PSI_per_gene, by = "gene_id")
+
+# melt the df: pivot longer for GE columns and PSI columns 
+merge_GE_PSI_long <- merge_GE_PSI |>
+  pivot_longer(
+    cols = starts_with("avg_"), 
+    names_to = "sample_GE", 
+    values_to = "normalized_counts"
+  ) |>
+  pivot_longer(
+    cols = starts_with("mean_PSI"), 
+    names_to = "sample_PSI", 
+    values_to = "mean_PSI"
+  )
+
+merge_GE_PSI_long_1$log_PSI <- log(merge_GE_PSI_long_1$mean_PSI + 0.01)
+merge_GE_PSI_long_1$log_GE <- log(merge_GE_PSI_long_1$normalized_counts + 1)
+
+# Plot
+Fig4C <- ggscatter(
+  merge_GE_PSI_long_1,
+  x = "log_PSI",
+  y = "log_GE",
+  add = "reg.line",
+  conf.int = FALSE,
+  palette = "#A1E3F9",           
+  add.params = list(color = "#8B0000"),
+  cor.coef = TRUE,
+  cor.method = "pearson",
+  alpha = 1/200,
+  size = 0.0015
+) +     
+ggsave("scatter_plot.png", p, width = 4, height = 4, units = "in", dpi = 600)
