@@ -1,6 +1,8 @@
 # Load library
 library(tidyverse)
 library(ggsignif)
+library(ggpubr)
+
 ## 01. Figure 1A
 # Import intron data 
 Intron_data <- read_tsv("Intron_data.tsv")
@@ -55,6 +57,31 @@ Fig1B <- ggplot(melt_GE_intron_number, aes(x=total_intron_number, y = log(Normal
        fill = "intron_number")
 
 ## 03. Figure 1C: First intron position and gene expression level 
+# Import gene expression data 
+avg_normalized_count <- read.csv("avg_normalized_count.csv")
+# Find the nearest intron to 5 end in 1 gene
+intron_position_min <- Intron_data |>
+  group_by(Gene_ID) |>
+  summarise(min_to_5_end = min(intron_to_5_end))
+
+# Merge intron position with gene expression data 
+GE_merge_5_end_distance <- intron_position_min |>
+  left_join(avg_normalized_count, by = c("Gene_ID" = "gene_id"))
+
+# Mutate the intron position
+GE_merge_5_end_distance <- GE_merge_5_end_distance |>
+  mutate(
+    intron_position_category = case_when(
+      min_to_5_end < 0.25 ~ "first_5_intron",
+      min_to_5_end > 0.75 ~ "first_3_intron",
+      TRUE ~ "middle"
+    )
+  )
+# Melt the df 
+melt_GE_5_end_distance <- GE_merge_5_end_distance|>
+  pivot_longer(cols = 3:18, names_to = 'Sample', values_to = 'Normalized_counts')
+
+# Plot
 Fig3C <- ggplot(melt_GE_5_end_distance, aes(x=intron_position_category, y = log(Normalized_counts+1), fill = intron_position_category)) +
   geom_violin() +
   geom_boxplot(outliers = FALSE, width = 0.1)+ # outliners = FALSE: outliers are discarded and not included in the calculation
