@@ -31,7 +31,7 @@ melt_GE_intron_number <- GE_intron_number |>
 # Plot
 Fig1B <- ggplot(melt_GE_intron_number, aes(x=total_intron_number, y = log(Normalized_counts+1), fill = total_intron_number)) +
   geom_violin() +
-  geom_boxplot(outliers = FALSE, width = 0.1)+ # outliners = FALSE: outliers are discarded and not included in the calculation
+  geom_boxplot(outliers = FALSE, width = 0.1)+ 
   geom_signif(
     comparisons = list(
       c("0", "1"),
