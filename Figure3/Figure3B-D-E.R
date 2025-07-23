@@ -51,3 +51,34 @@ Fig3D <- ggplot(data, aes(x = A3SS_distance.cut)) +
   theme(base_size = 32)+
   scale_x_discrete(drop = FALSE) +
   theme_bw()
+
+## 003. Fig3E: Relative distance of A3SS 3'SS compared with random introns
+# Calculate the relative position of A3SS 3'SS
+merged_A3SS_data <- merged_A3SS_data |>
+  mutate(A3SS_site = ifelse(strand == "+", A3_exon_start, A3_exon_end))
+merged_A3SS_data <- merged_A3SS_data |>
+  mutate(relative_distance_A3SS_to_5_end = abs(A3SS_site - five_prime_end)/ abs(three_prime_end-five_prime_end), group = "A3SS_introns") 
+
+# Intron 3SS position of random introns
+# Import 3SS of all introns
+intron_3SS_data <- read_csv("intron_3SS_data.csv")
+
+# randomly choose 512 introns in intron 3SS data
+random_introns <- sample(nrow(intron_3SS_data_1), 512)
+intron_3SS_data_sample <- intron_3SS_data_1[random_introns, ]
+
+# Calculate the relative position of random 3'SS 
+intron_3SS_data_sample <- intron_3SS_data_sample |>
+  mutate(relative_distance_A3SS_to_5_end = abs(A3SS_site - five_prime_end)/ abs(three_prime_end-five_prime_end), group = "random_introns") 
+
+# Plot
+# Draw the overlap bw A3SS introns and random introns
+ggplot() +
+  geom_histogram(data = merged_A3SS_data, aes(x = relative_distance_A3SS_to_5_end), 
+                 bins = 10, alpha = 0.4, fill = "blue") +
+  geom_histogram(data = intron_3SS_data_sample, aes(x = relative_distance_A3SS_to_5_end), 
+                 bins = 10, alpha = 0.4, fill = "red") +
+  theme_bw()
+# KS test
+ks_result <- ks.test(merged_A3SS_data$relative_distance_A3SS_to_5_end, 
+                     intron_3SS_data_sample$relative_distance_A3SS_to_5_end) 
