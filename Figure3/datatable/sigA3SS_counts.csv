@@ -1,0 +1,17 @@
+timepoints,Difference,count
+AM11,higher_PSI_green,28
+AM11,higher_PSI_white,14
+AM2,higher_PSI_green,47
+AM2,higher_PSI_white,24
+AM5,higher_PSI_green,49
+AM5,higher_PSI_white,26
+AM8,higher_PSI_green,31
+AM8,higher_PSI_white,21
+PM11,higher_PSI_green,57
+PM11,higher_PSI_white,37
+PM2,higher_PSI_green,22
+PM2,higher_PSI_white,14
+PM5,higher_PSI_green,27
+PM5,higher_PSI_white,13
+PM8,higher_PSI_green,71
+PM8,higher_PSI_white,31

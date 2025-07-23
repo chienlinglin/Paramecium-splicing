@@ -6,7 +6,7 @@ library(glue)
 # Import rMATs summary data 
 rMATs_summary <- read.csv("rmats_summary.csv")
 # Plot
-Fig3A <- gplot(transform(rMATs_summary,
+Fig3A <- ggplot(transform(rMATs_summary,
                  group = factor(group, levels = c("AM11_g_w", "PM2_g_w", "PM5_g_w", "PM8_g_w", "PM11_g_w", "AM2_g_w", "AM5_g_w", "AM8_g_w"))), # Arrange the plot based on the timepoint order 
        aes(x = EventType, y = Value, fill = Compare, label = Value)) +
   geom_col() +
