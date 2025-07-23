@@ -84,7 +84,7 @@ melt_GE_5_end_distance <- GE_merge_5_end_distance|>
 # Plot
 Fig1C <- ggplot(melt_GE_5_end_distance, aes(x=intron_position_category, y = log(Normalized_counts+1), fill = intron_position_category)) +
   geom_violin() +
-  geom_boxplot(outliers = FALSE, width = 0.1)+ # outliners = FALSE: outliers are discarded and not included in the calculation
+  geom_boxplot(outliers = FALSE, width = 0.1)+ 
   geom_signif(
     comparisons = list(
       c("first_5_intron", "middle"),
