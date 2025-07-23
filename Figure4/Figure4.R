@@ -118,3 +118,67 @@ Fig4C <- ggscatter(
 ggsave("scatter_plot.png", p, width = 4, height = 4, units = "in", dpi = 600)
 
 ## 004. Figure 4D: intron position and PSI association
+# Import intron position data 
+intron_position_data <- read_tsv("/data/Data/Giang/Paramecium/Pb_intron_features/Intron_data.tsv")
+
+# Select intron position column 
+intron_position_data <- intron_position_data |>
+  select(Gene_ID, seqnames, intron_start, intron_end, intron_to_5_end)
+
+# Mutate intron position data to divide introns based on its position in gene
+intron_position_data <- intron_position_data |>
+  mutate(
+    intron_position_category = case_when(
+      intron_to_5_end <= 0.25 ~ "5_intron",
+      intron_to_5_end >= 0.75 ~ "3_intron",
+      TRUE ~ "middle_intron"
+    )
+  )
+
+# Import intron PSI data
+PSI_data <- read_csv("PSI_data.csv")
+# Merge with PSI data 
+intron_position_data <- intron_position_data |>
+  mutate(intron_id = paste0(seqnames, "_", intron_start, "_", intron_end))
+intron_position_merge_PSI <- intron_position_data |>
+  inner_join(filtered_merged_data_1, by = c("intron_id"))
+intron_position_merge_PSI <- intron_position_merge_PSI |>
+  dplyr::select(intron_id, intron_to_5_end, intron_position_category, starts_with("avg"))
+# melt PSI columns in intron position merge PSI df
+intron_position_merge_PSI_long <- intron_position_merge_PSI |>
+  pivot_longer(
+    cols = starts_with("avg"), 
+    names_to = "samples", 
+    values_to = "avg_PSI"
+  )
+
+# Relevel
+intron_position_merge_PSI_long$intron_position_category <- factor(
+  intron_position_merge_PSI_long$intron_position_category,
+  levels = c("5_intron", "middle_intron", "3_intron")
+)
+
+# Plot 
+Fig4D <- ggplot(intron_position_merge_PSI_long, aes(x = intron_position_category, y = avg_PSI * 100, fill = intron_position_category)) + 
+  geom_boxplot(outliers = FALSE, width = 0.2) +
+  labs(
+    y = "PSI (%)",
+    x = "intron_position_category", 
+    fill = 'intron_position_category'
+  )+
+  theme_bw(base_size = 12) +
+  guides(fill = guide_legend(title = "")) +
+  theme(axis.text.x = element_text(color = "black", size = 12),
+        axis.text.y = element_text(color = "black", size = 12)) +
+  geom_signif(
+    comparisons = list(
+      c("5_intron", "middle_intron"),
+      c("middle_intron", "3_intron"),
+      c("5_intron", "3_intron")
+    ),
+    map_signif_level = TRUE,
+    textsize = 6,
+    margin_top = -0.85,
+    step_increase = 0.02,
+    tip_length = 0.01
+  )
