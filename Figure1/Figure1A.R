@@ -1,6 +1,6 @@
 # Load library
 library(tidyverse)
-
+library(ggsignif)
 ## 01. Figure 1A
 # Import intron data 
 Intron_data <- read_tsv("Intron_data.tsv")
@@ -12,7 +12,7 @@ Intron_data <- Intron_data |>
          intron_to_5_end = abs(intron_midpoint-five_prime_end)/transcript_length)
 
 # Figure 1A
-ggplot(intron_position_data, aes(x=intron_to_5_end)) +
+Fig1A <- ggplot(intron_position_data, aes(x=intron_to_5_end)) +
   geom_histogram(bins = 50,color="black", fill="lightblue")+
   labs(
     x = "Relative position to 5' end of gene",
@@ -21,4 +21,32 @@ ggplot(intron_position_data, aes(x=intron_to_5_end)) +
   theme_bw(base_size = 10)
 
 ## 02. Figure 1B: number of introns/ gene and gene expression level
+# Import gene expression and intron number data
 
+# Plot
+ggplot(melt_GE_intron_number, aes(x=total_intron_number, y = log2(Normalized_counts+1), fill = total_intron_number)) +
+  geom_violin() +
+  geom_boxplot(outliers = FALSE, width = 0.1)+ # outliners = FALSE: outliers are discarded and not included in the calculation
+  geom_signif(
+    comparisons = list(
+      c("0", "1"),
+      c("1", "2"),
+      c("2", "3"),
+      c("3", "4"),
+      c("4", "5"),
+      c("5", "6"),
+      c("6", "7+")
+    ),
+    map_signif_level = TRUE,
+    textsize = 6,
+    margin_top = 0.08,
+    step_increase = 0.02,
+    tip_length = 0.01
+  ) +
+  theme(axis.text.x = element_text(color = "black", size = 12),
+        axis.text.y = element_text(color = "black", size = 12))+
+  theme(base_size = 35)+
+  theme_bw()+
+  labs(x = 'Number of introns per gene',
+       y = 'Log2(normalized counts+1)',
+       fill = "intron_number")
