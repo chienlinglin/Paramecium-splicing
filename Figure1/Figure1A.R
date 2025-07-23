@@ -20,4 +20,5 @@ ggplot(intron_position_data, aes(x=intron_to_5_end)) +
   )+
   theme_bw(base_size = 10)
 
-## 02. Figure 1B: number of introns/ gene and 
+## 02. Figure 1B: number of introns/ gene and gene expression level
+
