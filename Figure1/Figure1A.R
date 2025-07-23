@@ -1,6 +1,7 @@
 # Load library
 library(tidyverse)
 
+## 01. Figure 1A
 # Import intron data 
 Intron_data <- read_tsv("Intron_data.tsv")
 
@@ -18,3 +19,5 @@ ggplot(intron_position_data, aes(x=intron_to_5_end)) +
     y = "Number of introns"
   )+
   theme_bw(base_size = 10)
+
+## 02. Figure 1B: number of introns/ gene and 
