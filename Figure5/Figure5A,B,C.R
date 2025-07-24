@@ -7,7 +7,7 @@ library(enrichplot)
 
 ## 001. Figure 5A. PCA plot 
 # Import PSI data of DSIs for all replicates 
-PSI_data_all_replicates_scale_sig <- read_csv("PSI_data_all_replicates_scale_sig.csv")
+PSI_data_all_replicates_scale_sig <- read_csv("PSI_sigRIs_all_samples_z_scaled.csv")
 
 # Run PCA
 pca_res <- prcomp(PSI_data_all_replicates_scale_sig)
