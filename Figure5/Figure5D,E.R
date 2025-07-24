@@ -70,13 +70,13 @@ for (i in 1:nrow(p_beta1_matrix)) {
   fdr_beta1_matrix[i,] <- p.adjust(p_beta1_matrix[i,], method = "fdr")
 }
 
-# Filter beta_matrix_rep_1 and beta1_matrix_rep_1 based on FDR 
+# Filter beta_matrix and beta1_matrix based on FDR 
 beta_matrix[fdr_beta_matrix >= 0.1] <- 0
 beta1_matrix[fdr_beta1_matrix >= 0.1] <- 0
 beta_matrix[beta1_matrix != 0] <- 0
 
 # Remove all 0 rows (introns)
-beta_matrix_rep_filt <- beta_matrix_rep_filt[rowSums(is.na(beta_matrix)) != ncol(beta_matrix), ] 
+beta_matrix_filt <- beta_matrix_filt[rowSums(is.na(beta_matrix)) != ncol(beta_matrix), ] 
 
 # Calculate mean of all cols 
 SF_mean_coef_beta_matrix <- colMeans(beta_matrix, na.rm = TRUE)
@@ -103,8 +103,8 @@ anotation_col <- data.frame(Cluster = SF_mean_coef_beta_matrix$cluster)
 rownames(anotation_col) <- rownames(SF_mean_coef_beta_matrix)
 
 # Find data limits
-max_val <- max(beta_matrix_rep_1_filt, na.rm = TRUE)
-min_val <- min(beta_matrix_rep_1_filt, na.rm = TRUE)
+max_val <- max(beta_matrix_filt, na.rm = TRUE)
+min_val <- min(beta_matrix_filt, na.rm = TRUE)
 abs_limit <- max(abs(min_val), abs(max_val))
 
 # Create symmetric breaks around 0
