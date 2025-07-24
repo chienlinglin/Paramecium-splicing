@@ -48,7 +48,31 @@ Fig6B <- ggplot(Pb_intron_age_merge_PSI, aes(x = as.factor(intron_age), y = avg_
     tip_length = 0.01
   ) 
 ## 002. Figure 6C. Intron age and Intron GC content
-
+# Plot 
+Pb_intron_age$intron_age <- as.factor(Pb_intron_age$intron_age)
+ggplot(Pb_intron_age, aes(x = as.factor(intron_age), y = intron_gc_content, fill = as.factor(intron_age))) + 
+  geom_boxplot(outliers = FALSE, width = 0.3) +
+  labs(
+    y = "intron content (%)",
+    x = "intron_age", 
+    fill = 'intron_age'
+  ) +
+  theme_bw(base_size = 12) +
+  guides(fill = guide_legend(title = "")) +
+  theme(axis.text.x = element_text(color = "black", size = 12),
+        axis.text.y = element_text(color = "black", size = 12)) +
+  geom_signif(
+    comparisons = list(
+      c("1", "2"),
+      c("1", "3")
+    ),
+    map_signif_level = TRUE,
+    textsize = 6,
+    margin_top = -0.35,
+    step_increase = 0.05,
+    tip_length = 0.01
+  )
+  
 ## 003. Figure 6D. Intron age and intron length
 # Perform KS test bw 1 & 2, 2 & 3 intron age group length
 # Convert intron_age to factor
