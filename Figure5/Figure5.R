@@ -29,10 +29,17 @@ Fig5A <- autoplot(pca_res, data = PSI_data_all_replicates_scale_sig,
 ## 002. Figure 5B: DSIs k-means clustering
 
 ## 003. Figure 5C: GO terms enrichment analysis
-# Import gene ids, term2gene, term2name
+# Import gene ids
+intron_id_to_gene_id_sig <- read_csv("intron_id_to_gene_id_sig.csv")
+gene_id_introns <- intron_id_to_gene_id_sig$Gene_ID |>
+  unique()
 
-term2gene <-
-term2name <-
+# Import GO term data
+go_terms_df <- read_csv("go_terms_df.csv")
+term2gene <- go_terms_df |>
+  dplyr::select(GO, GID)
+term2name <- go_terms_df |>
+  dplyr::select(GO, TERM)
 
 # GO terms enrichment
 BPenrich <- enricher(gene=gene_id_introns,TERM2GENE=term2gene, TERM2NAME = term2name, pAdjustMethod='hochberg',pvalueCutoff=0.05, qvalueCutoff = 0.05)
@@ -43,7 +50,7 @@ y <- mutate(BPenrich, enrich_score = (as.numeric(sub("/.*", "", GeneRatio)) /
                  as.numeric(sub(".*?/", "", BgRatio))))
 
 # Plot
-ggplot(y, showCategory = 10,
+Fig5C <- ggplot(y, showCategory = 10,
        aes(enrich_score, fct_reorder(Description, enrich_score))) +
   geom_segment(aes(xend=0, yend = Description)) +
   geom_point(aes(color=p.adjust, size = Count, shape = Ontology)) +
