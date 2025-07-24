@@ -123,7 +123,7 @@ Fig5D <- pheatmap(beta_matrix_ordered,
 avg_normalized_count <- read_csv('avg_normalized_count.csv')
 
 # Check the expression of repressors and enhancers in different cell types 
-avg_normalized_count_SFs_rep_1 <- avg_normalized_count |>
+avg_normalized_count_SFs <- avg_normalized_count |>
   filter(gene_id %in% col_cluster_SFs$SF_gene)
 
 # Merge SF cluster information with its GE df 
