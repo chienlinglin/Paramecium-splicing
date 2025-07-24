@@ -118,3 +118,31 @@ Fig5D <- pheatmap(beta_matrix_ordered,
          color = colorRampPalette(c("navy", "white", "firebrick3"))(100),
          breaks = breaks)
 
+## 002. Figure 5E: compare gene expression level of "splicing enhancers" and "splicing repressors" in green and white cells
+# Import the avg_normalized_count data 
+avg_normalized_count <- read_csv('avg_normalized_count.csv')
+
+# Check the expression of repressors and enhancers in different cell types 
+avg_normalized_count_SFs_rep_1 <- avg_normalized_count |>
+  filter(gene_id %in% col_cluster_SFs$SF_gene)
+
+# Merge SF cluster information with its GE df 
+avg_normalized_count_SFs <- avg_normalized_count_SFs|>
+  left_join(col_cluster_SFs, by = c("gene_id" = "SF_gene"))
+
+# pivot longer 
+avg_normalized_count_SFs_long <- avg_normalized_count_SFs |>
+  pivot_longer(cols = starts_with("avg"), 
+               names_to = "sample", 
+               values_to = "normalized_counts")
+avg_normalized_count_SFs_long_1 <- avg_normalized_count_SFs_long |>
+  mutate(cell_type = if_else(grepl("^avg_g_", sample), "green", "white"))
+
+avg_normalized_count_SFs_long_1$cluster <- as.factor(avg_normalized_count_SFs_long_1$cluster)
+
+# Plot 
+Fig5E <- ggplot(avg_normalized_count_SFs_long_1, aes(x = cluster, y = log2(normalized_counts + 1), fill = cell_type)) +
+  geom_boxplot(width = 0.5, outliers = FALSE) +
+  stat_compare_means(aes(group = cell_type), method = "wilcox.test") +
+  theme_classic2() +
+  scale_fill_manual(values=c("#537D5D", "#999999"))
