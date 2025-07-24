@@ -4,7 +4,7 @@ library(ggsignif)
 
 ## 001. Figure 6B. Intron age and PSI
 # Import intron PSI and intron age data
-Intron_age <- read_csv("PSI_intron_age.csv")
+Pb_intron_age <- read_csv("PSI_intron_age.csv")
 
 # Import intron PSI data
 PSI_data <- read_csv("PSI_data.csv")
@@ -14,7 +14,7 @@ intron_id_to_gene_id_all <- read_csv("intron_id_to_gene_id_all.csv")
 
 # Merge intron PSI data and intron age data
 Pb_intron_age_merge_PSI <- PSI_data |>
-  inner_join(Intron_age, by = c("intron_id", "GeneID" = "gene_id"))
+  inner_join(Pb_intron_age, by = c("intron_id", "GeneID" = "gene_id"))
 
 # melt intron age merged PSI df
 Pb_intron_age_merge_PSI_long <- Pb_intron_age_merge_PSI |>
@@ -50,5 +50,46 @@ Fig6B <- ggplot(Pb_intron_age_merge_PSI, aes(x = as.factor(intron_age), y = avg_
 ## 002. Figure 6C. Intron age and Intron GC content
 
 ## 003. Figure 6D. Intron age and intron length
+# Perform KS test bw 1 & 2, 2 & 3 intron age group length
+# Convert intron_age to factor
+Pb_intron_age$intron_age <- as.factor(Pb_intron_age$intron_age)
+
+ks_results <- list(
+  "1_vs_2" = ks.test(Pb_intron_age$intron_width[Pb_intron_age$intron_age == "1"],
+                     Pb_intron_age$intron_width[Pb_intron_age$intron_age == "2"], alternative = "two.sided", exact = FALSE),
+  "1_vs_3" = ks.test(Pb_intron_age$intron_width[Pb_intron_age$intron_age == "1"],
+                     Pb_intron_age$intron_width[Pb_intron_age$intron_age == "3"], alternative = "two.sided", exact = FALSE)
+)
+
+# Extract p-values
+ks_p_values <- data.frame(
+  comparison = c("1_vs_2", "1_vs_3"),
+  p_value = c(ks_results$`1_vs_2`$p.value, ks_results$`1_vs_3`$p.value)
+)
+
+# Plot
+Pb_intron_age$intron_age <- as.factor(Pb_intron_age$intron_age)
+Fig6D <- ggplot(Pb_intron_age, aes(x = as.factor(intron_age), y = intron_width, fill = as.factor(intron_age))) + 
+  geom_boxplot(outliers = FALSE, width = 0.2) +
+  labs(
+    y = "intron length (bp)",
+    x = "intron_age", 
+    fill = 'intron_age'
+  ) +
+  theme_bw(base_size = 12) +
+  guides(fill = guide_legend(title = "")) +
+  theme(axis.text.x = element_text(color = "black", size = 12),
+        axis.text.y = element_text(color = "black", size = 12)) +
+  geom_signif(
+    comparisons = list(
+      c("1", "2"),
+      c("1", "3")
+    ),
+    annotations = sprintf("p = %.3g", ks_p_values$p_value),  # Use KS test p-values
+    textsize = 6,
+    margin_top = -0.75,
+    step_increase = 0.02,
+    tip_length = 0.01
+  ) 
 
 ## 004. Figure 6E. Maximum intron age and gene expression level
