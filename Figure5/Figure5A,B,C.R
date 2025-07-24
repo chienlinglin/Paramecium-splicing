@@ -27,6 +27,27 @@ Fig5A <- autoplot(pca_res, data = PSI_data_all_replicates_scale_sig,
   scale_colour_manual(values = c("white" = "#393E46", "green" = "#537D5D"))
 
 ## 002. Figure 5B: DSIs k-means clustering
+# Import k-means clustering results 
+Sig_RIs_g_w_cluster <- read_csv("Sig_RIs_g_w_cluster.csv")
+# Plot
+Fig5B <- pheatmap(
+  Sig_RIs_g_w_cluster[, 1:16],
+  show_rownames = FALSE,
+  show_colnames = TRUE,
+  cluster_rows = FALSE,
+  cluster_cols = TRUE,
+  annotation_row = data.frame(Cluster = km.res$cluster),
+  scale = 'none',
+  color = (brewer.pal(10, "RdYlBu")),
+  fontsize = 10,
+  fontsize_col = 8,
+  annotation_colors = list(
+    Cluster = colorRampPalette(brewer.pal(8, "Dark2"))(length(unique(km.res$cluster)))
+  ),
+  annotation_names_row = TRUE,
+  annotation_legend = TRUE,
+  border_color = NA
+)
 
 ## 003. Figure 5C: GO terms enrichment analysis
 # Import gene ids
