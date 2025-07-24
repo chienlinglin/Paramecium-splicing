@@ -117,3 +117,48 @@ Fig6D <- ggplot(Pb_intron_age, aes(x = as.factor(intron_age), y = intron_width, 
   ) 
 
 ## 004. Figure 6E. Maximum intron age and gene expression level
+# Import gene expression data 
+avg_normalized_count <- read_csv('avg_normalized_count.csv')
+
+# Summarize the oldest intron age in each gene 
+Pb_intron_age_gene <- Pb_intron_age |>
+  group_by(gene_id) |>
+  summarize(max_intron_age = max(as.numeric(intron_age), na.rm = TRUE))
+
+# merge intron age data and gene expression 
+Pb_intron_age_merge_GE <- Pb_intron_age_gene |>
+  inner_join(avg_normalized_count, by = "gene_id")
+
+Pb_intron_age_merge_GE_long <- Pb_intron_age_merge_GE |>
+  pivot_longer(
+    cols = starts_with("avg"), 
+    names_to = "samples", 
+    values_to = "avg_GE"
+  )
+
+Pb_intron_age_merge_GE_long$max_intron_age <- as.factor(Pb_intron_age_merge_GE_long$max_intron_age)
+
+# Plot 
+Fig6E <- ggplot(Pb_intron_age_merge_GE_long, aes(x = as.factor(max_intron_age), y = log(avg_GE+1), fill = as.factor(max_intron_age))) + 
+  geom_violin()+
+  geom_boxplot(outliers = FALSE, width = 0.1) +
+  labs(
+    y = "log(Normalized count +1)",
+    x = "max_intron_age", 
+    fill = 'max_intron_age'
+  ) +
+  theme_bw(base_size = 12) +
+  guides(fill = guide_legend(title = "")) +
+  theme(axis.text.x = element_text(color = "black", size = 12),
+        axis.text.y = element_text(color = "black", size = 12)) +
+  geom_signif(
+    comparisons = list(
+      c("1", "2"),
+      c("2", "3")
+    ),
+    map_signif_level = TRUE,
+    textsize = 6,
+    margin_top = 0.08,
+    step_increase = 0.02,
+    tip_length = 0.01
+  )
